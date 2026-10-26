@@ -1,0 +1,52 @@
+{
+  "baseline_known_tics_sha256": "fd8c86dfc899e60e412799655f4f81385a486ac665213a2e041f6a91c1daf147",
+  "baseline_registry_sha256": "9d4cabc381f598b8587a5039f1011f60ee4830c05166b92eff2e62b1f72213d4",
+  "commit": "b78437bccab9d068c0fedbfa748944f3bbdb0286",
+  "config": {
+    "dist_max": 55.0,
+    "max_targets": 2,
+    "min_sectors": 3,
+    "page": 1,
+    "teff_max": 4300.0,
+    "teff_min": 3300.0,
+    "tmag_max": 11.2,
+    "tmag_min": 11.0
+  },
+  "dependencies": [
+    "astropy==7.1.1",
+    "astropy-iers-data==0.2026.10.19.0.52.1",
+    "certifi==2026.10.23",
+    "charset-normalizer==3.5.2",
+    "contourpy==1.4.0",
+    "cycler==0.12.1",
+    "fonttools==4.67.0",
+    "idna==3.20",
+    "kiwisolver==1.5.1",
+    "matplotlib==3.10.7",
+    "numpy==2.3.4",
+    "packaging==26.3",
+    "pillow==13.0.0",
+    "pyerfa==2.0.1.5",
+    "pyparsing==3.3.3",
+    "python-dateutil==3.0.0",
+    "PyYAML==6.0.3",
+    "requests==2.32.5",
+    "scipy==1.16.3",
+    "six==1.17.0",
+    "tzdata==2026.5",
+    "urllib3==2.8.0"
+  ],
+  "period_max_d": 15.0,
+  "period_min_d": 1.1,
+  "python": "3.12.15",
+  "run_url": "https://github.com/mashingaan/open-exoplanet-hunt/actions/runs/40284467234",
+  "script_sha256": {
+    "audit_neighbors_and_aliases.py": "b5ce318c5a54631472db0eaac7947e2db9a1c0816396acaf7bb5ac9d2dee0e65",
+    "hunt_sectors.py": "4124cc22807f86b1596a23602d10082ee5aef79787677b87272552ade7bdadb4",
+    "sync_catalogs.py": "3e16e0ebbda8fa855c14cda0b95c061f3bc791cb785397ea3e1d8e00a2756220",
+    "verify_all.py": "25337066832b629780741808e3586873facdccc77d7f09e314bc927c66d4c69d",
+    "vet_candidate.py": "8e7f3e3a903247c73f3b872bd2d9d1b578f00db34f17323c10712b8c6762911d"
+  },
+  "selection_policy": "Upstream run_hunt order and fixed six-sector initial screen, expand only as upstream specifies",
+  "started_utc": "2026-10-26T07:14:10Z"
+}

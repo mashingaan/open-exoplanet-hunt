@@ -1,0 +1,150 @@
+{
+  "request": {
+    "format": "json",
+    "params": {
+      "columns": "obs_id,obs_collection,dataproduct_type,target_name,sequence_number,t_exptime,dataURL",
+      "filters": [
+        {
+          "paramName": "target_name",
+          "values": [
+            "432694531",
+            "0000000432694531"
+          ]
+        },
+        {
+          "paramName": "obs_collection",
+          "values": [
+            "TESS",
+            "HLSP"
+          ]
+        }
+      ]
+    },
+    "service": "Mast.Caom.Filtered"
+  },
+  "response": {
+    "data": [
+      {
+        "dataURL": "mast:TESS/product/tess2019279210107-s0017-0000000432694531-0161-s_lc.fits",
+        "dataproduct_type": "timeseries",
+        "obs_collection": "TESS",
+        "obs_id": "tess2019279210107-s0017-0000000432694531-0161-s",
+        "sequence_number": 17,
+        "t_exptime": 120,
+        "target_name": "432694531"
+      },
+      {
+        "dataURL": "mast:HLSP/tess-spoc/s0017/target/0000/0004/3269/4531/hlsp_tess-spoc_tess_phot_0000000432694531-s0017_tess_v1_lc.fits",
+        "dataproduct_type": "timeseries",
+        "obs_collection": "HLSP",
+        "obs_id": "hlsp_tess-spoc_tess_phot_0000000432694531-s0017_tess_v1_tp",
+        "sequence_number": 17,
+        "t_exptime": 1800,
+        "target_name": "432694531"
+      },
+      {
+        "dataURL": "mast:HLSP/qlp/s0017/0000/0004/3269/4531/hlsp_qlp_tess_ffi_s0017-0000000432694531_tess_v01_llc.fits",
+        "dataproduct_type": "timeseries",
+        "obs_collection": "HLSP",
+        "obs_id": "hlsp_qlp_tess_ffi_s0017-0000000432694531_tess_v01_llc",
+        "sequence_number": 17,
+        "t_exptime": 1800,
+        "target_name": "432694531"
+      },
+      {
+        "dataURL": "mast:HLSP/tess-spoc/s0057/target/0000/0004/3269/4531/hlsp_tess-spoc_tess_phot_0000000432694531-s0057_tess_v1_lc.fits",
+        "dataproduct_type": "timeseries",
+        "obs_collection": "HLSP",
+        "obs_id": "hlsp_tess-spoc_tess_phot_0000000432694531-s0057_tess_v1_tp",
+        "sequence_number": 57,
+        "t_exptime": 200,
+        "target_name": "432694531"
+      },
+      {
+        "dataURL": "mast:HLSP/qlp/s0084/0000/0004/3269/4531/hlsp_qlp_tess_ffi_s0084-0000000432694531_tess_v01_llc.fits",
+        "dataproduct_type": "timeseries",
+        "obs_collection": "HLSP",
+        "obs_id": "hlsp_qlp_tess_ffi_s0084-0000000432694531_tess_v01_llc",
+        "sequence_number": 84,
+        "t_exptime": 200,
+        "target_name": "432694531"
+      },
+      {
+        "dataURL": "mast:HLSP/tars/sec_17_cam_1_ccd_1/hlsp_tars_tess_ffi_s0017-0000000432694531_tess_v01_lc.fits",
+        "dataproduct_type": "timeseries",
+        "obs_collection": "HLSP",
+        "obs_id": "hlsp_tars_tess_ffi_s0017-0000000432694531_tess",
+        "sequence_number": 17,
+        "t_exptime": 1800,
+        "target_name": "432694531"
+      },
+      {
+        "dataURL": "mast:HLSP/tars/sec_57_cam_1_ccd_1/hlsp_tars_tess_ffi_s0057-0000000432694531_tess_v01_lc.fits",
+        "dataproduct_type": "timeseries",
+        "obs_collection": "HLSP",
+        "obs_id": "hlsp_tars_tess_ffi_s0057-0000000432694531_tess",
+        "sequence_number": 57,
+        "t_exptime": 200,
+        "target_name": "432694531"
+      },
+      {
+        "dataURL": "mast:HLSP/tess-spoc/s0084/target/0000/0004/3269/4531/hlsp_tess-spoc_tess_phot_0000000432694531-s0084_tess_v1_lc.fits",
+        "dataproduct_type": "timeseries",
+        "obs_collection": "HLSP",
+        "obs_id": "hlsp_tess-spoc_tess_phot_0000000432694531-s0084_tess_v1_tp",
+        "sequence_number": 84,
+        "t_exptime": 200,
+        "target_name": "432694531"
+      },
+      {
+        "dataURL": "mast:HLSP/tars/sec_84_cam_1_ccd_1/hlsp_tars_tess_ffi_s0084-0000000432694531_tess_v01_lc.fits",
+        "dataproduct_type": "timeseries",
+        "obs_collection": "HLSP",
+        "obs_id": "hlsp_tars_tess_ffi_s0084-0000000432694531_tess",
+        "sequence_number": 84,
+        "t_exptime": 200,
+        "target_name": "432694531"
+      }
+    ],
+    "fields": [
+      {
+        "name": "dataproduct_type",
+        "type": "string"
+      },
+      {
+        "name": "obs_collection",
+        "type": "string"
+      },
+      {
+        "name": "sequence_number",
+        "type": "int"
+      },
+      {
+        "name": "t_exptime",
+        "type": "float"
+      },
+      {
+        "name": "dataURL",
+        "type": "string"
+      },
+      {
+        "name": "target_name",
+        "type": "string"
+      },
+      {
+        "name": "obs_id",
+        "type": "string"
+      }
+    ],
+    "msg": "",
+    "paging": {
+      "page": 1,
+      "pageSize": 9,
+      "pagesFiltered": 1,
+      "rows": 9,
+      "rowsFiltered": 9,
+      "rowsTotal": 9
+    },
+    "status": "COMPLETE"
+  }
+}
