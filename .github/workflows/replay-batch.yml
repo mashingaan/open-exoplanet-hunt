@@ -1,0 +1,37 @@
+name: Replay recorded TESS batch
+on:
+  workflow_dispatch:
+    inputs:
+      ref:
+        required: true
+      batch:
+        required: true
+permissions:
+  contents: read
+jobs:
+  replay:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+      PYTHONUNBUFFERED: '1'
+      BATCH_PATH: ${{ inputs.batch }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ inputs.ref }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install astropy==7.1.1 numpy==2.3.4 scipy==1.16.3 matplotlib==3.10.7 requests==2.32.5
+      - uses: actions/cache/restore@v4
+        with:
+          path: .cache/mast
+          key: tess-mast-replay-${{ github.run_id }}
+          restore-keys: tess-mast-
+      - run: git rev-parse HEAD
+      - run: python -B "$BATCH_PATH/replay.py"
+      - run: python -B scripts/verify_all.py
+      - run: python -B -m unittest discover -s tests -v
+      - run: git diff --exit-code
