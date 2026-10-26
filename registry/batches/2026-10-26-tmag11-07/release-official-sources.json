@@ -1,0 +1,29 @@
+[
+  {
+    "bytes": 1818654,
+    "retrieved_utc": "2026-10-26T14:18:43.075572+00:00",
+    "rows": 6451,
+    "sha256": "caefd88af355943484fbd81ab0e0f79924d1c58a536b0d0d50602aa8aba7f005",
+    "source": "confirmed",
+    "unique_tics": 4551,
+    "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+pl_name,hostname,tic_id,disc_year,discoverymethod,disc_facility,pl_orbper,pl_rade,ra,dec,sy_dist+from+pscomppars&format=json"
+  },
+  {
+    "bytes": 2300026,
+    "retrieved_utc": "2026-10-26T14:18:45.039694+00:00",
+    "rows": 8151,
+    "sha256": "0eac437a503b4dea524f47ba0ba1e148786f8f606a9ff5656582e78dcde03222",
+    "source": "toi",
+    "unique_tics": 7826,
+    "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+toi,tid,tfopwg_disp,pl_orbper,pl_tranmid,pl_trandep,pl_trandurh,pl_rade,st_tmag,st_teff,st_rad,st_dist+from+toi&format=json"
+  },
+  {
+    "bytes": 2335190,
+    "retrieved_utc": "2026-10-26T14:18:46.216900+00:00",
+    "rows": 5139,
+    "sha256": "9e11710eaa5604343bef02d6d4b8b6b087f0d335c9213453345a5d2a6243d1f9",
+    "source": "ctoi",
+    "unique_tics": 4936,
+    "url": "https://exofop.ipac.caltech.edu/tess/download_ctoi.php?sort=ctoi&output=csv"
+  }
+]

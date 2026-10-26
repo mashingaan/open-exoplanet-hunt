@@ -1,0 +1,452 @@
+{
+  "payload": {
+    "baseline_registry_sha256": "0cd54891651fae1aa0cd5623febc141a0b330d3a25c9b6d4a56ee2fdd90f5496",
+    "created_utc": "2026-10-26T13:18:24.205782+00:00",
+    "dependencies": [
+      "PyYAML==6.0.3",
+      "astropy-iers-data==0.2026.10.19.0.52.1",
+      "astropy==7.1.1",
+      "certifi==2026.10.23",
+      "charset-normalizer==3.5.2",
+      "contourpy==1.4.0",
+      "cycler==0.12.1",
+      "fonttools==4.67.0",
+      "idna==3.20",
+      "kiwisolver==1.5.1",
+      "matplotlib==3.10.7",
+      "numpy==2.3.4",
+      "packaging==26.3",
+      "pillow==13.0.0",
+      "pyerfa==2.0.1.5",
+      "pyparsing==3.3.3",
+      "python-dateutil==3.0.0",
+      "requests==2.32.5",
+      "scipy==1.16.3",
+      "six==1.17.0",
+      "tzdata==2026.5",
+      "urllib3==2.8.0"
+    ],
+    "environment": {
+      "image_version": "20261023.334.3",
+      "platform": "Linux-6.17.0-1022-azure-x86_64-with-glibc2.39",
+      "python": "3.12.15 (main, Oct  1 2026, 02:35:59) [GCC 13.3.0]",
+      "runner_os": "Linux",
+      "threads": {
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1"
+      }
+    },
+    "input_hashes": {
+      "active-deferrals.json": "b8b8a25123fc946069c9790f494cc20996750d14220327189805963222bbd620",
+      "catalog-exominer_labeled_tces.json": "9f0202aa4bc5336289ed284f29507914d851bed1a174b8d5b12567eb2525e689",
+      "catalog-exominer_unknown_tces.json": "5c4fa741bf284e47e703b94fbf71044734805cb22bf2b31a4d4e20c09c4866d6",
+      "catalog-external_candidates.json": "08f2c88ed3018a73486e7468dbb4098ea86cc94e3f68a082d980f8d2170f9f9c",
+      "catalog-raven_large_radius_signals.json": "4251d411a9aa92380c4ae63d5a7b5fb58a51f858431e4c24b227cc54e0c3ff05",
+      "catalog-raven_validated_signals.json": "83d6b77b7c96770e7b9df15eea5909822a5df2482de0bb233f2f29c1c9f32ef2",
+      "catalog-raven_vetted_signals.json": "a35d685110bdcad0c9a2af9f1e5bc47fd223412691eb4ae1e9cf7879f4848f50",
+      "catalog-t16_periodic_candidates.json": "bd148a7125e182adb29460092e1d5c2a7005e374e6a26db64a8cb184ddd70e05",
+      "catalog-t16_single_transit_candidates.json": "320b3aa7eadc54c7c7243bf646b54c5741d2eadbe7450f5d808fbc73c2d942f6",
+      "catalog-tess_eb.json": "7a225308ea126159c2c4485184ed7c057256bbbfbe119650fca0d8547b0e3682",
+      "catalog-tess_eb_kostov2025.json": "a87d41ee3e3ba3b19f9dbd9bc01acfb65bbe6dbe16d3eb0dd26c413d82bbbc88",
+      "catalog-tess_eb_live_villanova.json": "cc07ddc70dfa216240ba51c50045d533f008c7c5292ca2c2e91ea651d88e746d",
+      "latest-upstream-registry.json": "f214dd8e2d1d7e4a2208d58a220e050a9980858a4b7136fe76ca61f488513cfa",
+      "official-catalog-summary.json": "cf83565dc4ff08a7e74a020bd7c72a8a88ac4265eec61330c6f49039e5e55edf",
+      "official-known-tics.json.gz": "48d42195431a88ef74384b9b16c55742d0620c0a42387828d7a200c2ccdeb9f0",
+      "official-source-receipts.json": "0bca01bc657519c3f5e0c7ecad43b93177df028f1db7f84514e85ed255032bec",
+      "product-discovery.json": "0bfbe06dc6ffbbc50ae79abf97c291a162a870b48b4a139c23dd13bd77a20fd8",
+      "proposed-targets.json": "93d9ad6afea977aec5417b2524d74e02e7e8833628121ad4ce8db8b8152155d9",
+      "selection-mast-query-receipts.json": "75e9a337ad4621d1f87af9095f3e38c6360f12ef845110fc0a17e3ad0b6f2eb5",
+      "selection-mast-responses.json": "4f7ad3a1f0055bdb529ac566c79292a22bb95cc3c8a54c9e47313ea66a73ed0f",
+      "selection-provenance.json": "8f61c0a8a3aeee0868137ab8f40b94f664b70ad58127db00764ed744deeaa019",
+      "selection-query.json": "42c6286c599da0a13982e44dfdfd7ad32519252954543d19150d2c0ce309d6b9"
+    },
+    "pipeline_commit": "e63b80feff04ea3d19289cd389f30793f29ec3c1",
+    "policy": {
+      "alias_multipliers": [
+        2.0,
+        0.5,
+        1.5,
+        0.6666666666666666
+      ],
+      "failed_target_policy": "Stop incomplete and resume the same frozen target, never substitute",
+      "maximum_discovered_sectors": 12,
+      "maximum_metadata_probes": 12,
+      "maximum_planned_targets": 2,
+      "minimum_sectors": 3,
+      "period_range_days": [
+        1.1,
+        15.0
+      ],
+      "random_seed": null,
+      "randomness": "No stochastic search step is configured",
+      "sector_policy": "Unchanged upstream six-sector screen and conditional full-sector expansion",
+      "thresholds": "Unchanged upstream scientific scripts, identified by SHA-256"
+    },
+    "ranking": [
+      {
+        "features": {
+          "estimated_cpu_seconds": 255,
+          "evidence_receipts": [
+            "product-discovery.json",
+            "mast-query-receipts.json"
+          ],
+          "gaia_companion_evidence": null,
+          "independent_missions": null,
+          "independent_reductions": true,
+          "known_host_residual_search": null,
+          "multi_year_baseline": true,
+          "preregistered_revisit": null,
+          "public_rv_coverage": null,
+          "target_id": "TIC-00000000000012131189"
+        },
+        "interpretation": "Uncalibrated metadata heuristic per estimated CPU second",
+        "policy_sha256": "c4fecaa5c9cdb76390a49ff59a22145a632a7311eb664d5b04adb8882e5976df",
+        "priority_score": 0.01568627450980392,
+        "target_id": "TIC-00000000000012131189"
+      },
+      {
+        "features": {
+          "estimated_cpu_seconds": 255,
+          "evidence_receipts": [
+            "product-discovery.json",
+            "mast-query-receipts.json"
+          ],
+          "gaia_companion_evidence": null,
+          "independent_missions": null,
+          "independent_reductions": true,
+          "known_host_residual_search": null,
+          "multi_year_baseline": true,
+          "preregistered_revisit": null,
+          "public_rv_coverage": null,
+          "target_id": "TIC-00000000000012881049"
+        },
+        "interpretation": "Uncalibrated metadata heuristic per estimated CPU second",
+        "policy_sha256": "c4fecaa5c9cdb76390a49ff59a22145a632a7311eb664d5b04adb8882e5976df",
+        "priority_score": 0.01568627450980392,
+        "target_id": "TIC-00000000000012881049"
+      },
+      {
+        "features": {
+          "estimated_cpu_seconds": 300,
+          "evidence_receipts": [
+            "product-discovery.json",
+            "mast-query-receipts.json"
+          ],
+          "gaia_companion_evidence": null,
+          "independent_missions": null,
+          "independent_reductions": true,
+          "known_host_residual_search": null,
+          "multi_year_baseline": true,
+          "preregistered_revisit": null,
+          "public_rv_coverage": null,
+          "target_id": "TIC-00000000000006749695"
+        },
+        "interpretation": "Uncalibrated metadata heuristic per estimated CPU second",
+        "policy_sha256": "c4fecaa5c9cdb76390a49ff59a22145a632a7311eb664d5b04adb8882e5976df",
+        "priority_score": 0.013333333333333334,
+        "target_id": "TIC-00000000000006749695"
+      },
+      {
+        "features": {
+          "estimated_cpu_seconds": 300,
+          "evidence_receipts": [
+            "product-discovery.json",
+            "mast-query-receipts.json"
+          ],
+          "gaia_companion_evidence": null,
+          "independent_missions": null,
+          "independent_reductions": true,
+          "known_host_residual_search": null,
+          "multi_year_baseline": true,
+          "preregistered_revisit": null,
+          "public_rv_coverage": null,
+          "target_id": "TIC-00000000000009624343"
+        },
+        "interpretation": "Uncalibrated metadata heuristic per estimated CPU second",
+        "policy_sha256": "c4fecaa5c9cdb76390a49ff59a22145a632a7311eb664d5b04adb8882e5976df",
+        "priority_score": 0.013333333333333334,
+        "target_id": "TIC-00000000000009624343"
+      },
+      {
+        "features": {
+          "estimated_cpu_seconds": 300,
+          "evidence_receipts": [
+            "product-discovery.json",
+            "mast-query-receipts.json"
+          ],
+          "gaia_companion_evidence": null,
+          "independent_missions": null,
+          "independent_reductions": true,
+          "known_host_residual_search": null,
+          "multi_year_baseline": true,
+          "preregistered_revisit": null,
+          "public_rv_coverage": null,
+          "target_id": "TIC-00000000000011568422"
+        },
+        "interpretation": "Uncalibrated metadata heuristic per estimated CPU second",
+        "policy_sha256": "c4fecaa5c9cdb76390a49ff59a22145a632a7311eb664d5b04adb8882e5976df",
+        "priority_score": 0.013333333333333334,
+        "target_id": "TIC-00000000000011568422"
+      },
+      {
+        "features": {
+          "estimated_cpu_seconds": 300,
+          "evidence_receipts": [
+            "product-discovery.json",
+            "mast-query-receipts.json"
+          ],
+          "gaia_companion_evidence": null,
+          "independent_missions": null,
+          "independent_reductions": true,
+          "known_host_residual_search": null,
+          "multi_year_baseline": true,
+          "preregistered_revisit": null,
+          "public_rv_coverage": null,
+          "target_id": "TIC-00000000000012376734"
+        },
+        "interpretation": "Uncalibrated metadata heuristic per estimated CPU second",
+        "policy_sha256": "c4fecaa5c9cdb76390a49ff59a22145a632a7311eb664d5b04adb8882e5976df",
+        "priority_score": 0.013333333333333334,
+        "target_id": "TIC-00000000000012376734"
+      },
+      {
+        "features": {
+          "estimated_cpu_seconds": 345,
+          "evidence_receipts": [
+            "product-discovery.json",
+            "mast-query-receipts.json"
+          ],
+          "gaia_companion_evidence": null,
+          "independent_missions": null,
+          "independent_reductions": true,
+          "known_host_residual_search": null,
+          "multi_year_baseline": true,
+          "preregistered_revisit": null,
+          "public_rv_coverage": null,
+          "target_id": "TIC-00000000000007221789"
+        },
+        "interpretation": "Uncalibrated metadata heuristic per estimated CPU second",
+        "policy_sha256": "c4fecaa5c9cdb76390a49ff59a22145a632a7311eb664d5b04adb8882e5976df",
+        "priority_score": 0.011594202898550725,
+        "target_id": "TIC-00000000000007221789"
+      },
+      {
+        "features": {
+          "estimated_cpu_seconds": 345,
+          "evidence_receipts": [
+            "product-discovery.json",
+            "mast-query-receipts.json"
+          ],
+          "gaia_companion_evidence": null,
+          "independent_missions": null,
+          "independent_reductions": true,
+          "known_host_residual_search": null,
+          "multi_year_baseline": true,
+          "preregistered_revisit": null,
+          "public_rv_coverage": null,
+          "target_id": "TIC-00000000000009062134"
+        },
+        "interpretation": "Uncalibrated metadata heuristic per estimated CPU second",
+        "policy_sha256": "c4fecaa5c9cdb76390a49ff59a22145a632a7311eb664d5b04adb8882e5976df",
+        "priority_score": 0.011594202898550725,
+        "target_id": "TIC-00000000000009062134"
+      },
+      {
+        "features": {
+          "estimated_cpu_seconds": 390,
+          "evidence_receipts": [
+            "product-discovery.json",
+            "mast-query-receipts.json"
+          ],
+          "gaia_companion_evidence": null,
+          "independent_missions": null,
+          "independent_reductions": true,
+          "known_host_residual_search": null,
+          "multi_year_baseline": true,
+          "preregistered_revisit": null,
+          "public_rv_coverage": null,
+          "target_id": "TIC-00000000000007784304"
+        },
+        "interpretation": "Uncalibrated metadata heuristic per estimated CPU second",
+        "policy_sha256": "c4fecaa5c9cdb76390a49ff59a22145a632a7311eb664d5b04adb8882e5976df",
+        "priority_score": 0.010256410256410256,
+        "target_id": "TIC-00000000000007784304"
+      },
+      {
+        "features": {
+          "estimated_cpu_seconds": 390,
+          "evidence_receipts": [
+            "product-discovery.json",
+            "mast-query-receipts.json"
+          ],
+          "gaia_companion_evidence": null,
+          "independent_missions": null,
+          "independent_reductions": true,
+          "known_host_residual_search": null,
+          "multi_year_baseline": true,
+          "preregistered_revisit": null,
+          "public_rv_coverage": null,
+          "target_id": "TIC-00000000000008501064"
+        },
+        "interpretation": "Uncalibrated metadata heuristic per estimated CPU second",
+        "policy_sha256": "c4fecaa5c9cdb76390a49ff59a22145a632a7311eb664d5b04adb8882e5976df",
+        "priority_score": 0.010256410256410256,
+        "target_id": "TIC-00000000000008501064"
+      }
+    ],
+    "ranking_limitations": [
+      "Ranking covers only the fixed twelve-target metadata window, not the entire sky or query",
+      "CPU estimates are a declared scheduling heuristic, not a calibrated cost model",
+      "Only independent-reduction availability and observed two-year baseline are currently populated",
+      "Other mission, RV, Gaia and revisit features remain unknown, not asserted absent"
+    ],
+    "schema_version": 1,
+    "scientific_scripts": {
+      "audit_neighbors_and_aliases.py": "b5ce318c5a54631472db0eaac7947e2db9a1c0816396acaf7bb5ac9d2dee0e65",
+      "hunt_sectors.py": "4124cc22807f86b1596a23602d10082ee5aef79787677b87272552ade7bdadb4",
+      "sync_catalogs.py": "3e16e0ebbda8fa855c14cda0b95c061f3bc791cb785397ea3e1d8e00a2756220",
+      "verify_all.py": "25337066832b629780741808e3586873facdccc77d7f09e314bc927c66d4c69d",
+      "vet_candidate.py": "8e7f3e3a903247c73f3b872bd2d9d1b578f00db34f17323c10712b8c6762911d"
+    },
+    "selection_rule": "Count-checked clean-star cohort, bounded metadata shortlist, metadata ranking before photometry",
+    "targets": [
+      {
+        "products": [
+          {
+            "exptime_s": 120.0,
+            "fallbacks": [
+              {
+                "exptime_s": 1800.0,
+                "obs_id": "hlsp_tess-spoc_tess_phot_0000000012131189-s0011_tess_v1_tp",
+                "pipeline": "TESS-SPOC",
+                "priority": 1,
+                "sector": 11,
+                "uri": "mast:HLSP/tess-spoc/s0011/target/0000/0000/1213/1189/hlsp_tess-spoc_tess_phot_0000000012131189-s0011_tess_v1_lc.fits"
+              },
+              {
+                "exptime_s": 1800.0,
+                "obs_id": "hlsp_qlp_tess_ffi_s0011-0000000012131189_tess_v01_llc",
+                "pipeline": "QLP",
+                "priority": 2,
+                "sector": 11,
+                "uri": "mast:HLSP/qlp/s0011/0000/0000/1213/1189/hlsp_qlp_tess_ffi_s0011-0000000012131189_tess_v01_llc.fits"
+              }
+            ],
+            "obs_id": "tess2019112060037-s0011-0000000012131189-0143-s",
+            "pipeline": "SPOC",
+            "priority": 0,
+            "sector": 11,
+            "uri": "mast:TESS/product/tess2019112060037-s0011-0000000012131189-0143-s_lc.fits"
+          },
+          {
+            "exptime_s": 600.0,
+            "fallbacks": [
+              {
+                "exptime_s": 600.0,
+                "obs_id": "hlsp_qlp_tess_ffi_s0038-0000000012131189_tess_v01_llc",
+                "pipeline": "QLP",
+                "priority": 2,
+                "sector": 38,
+                "uri": "mast:HLSP/qlp/s0038/0000/0000/1213/1189/hlsp_qlp_tess_ffi_s0038-0000000012131189_tess_v01_llc.fits"
+              }
+            ],
+            "obs_id": "hlsp_tess-spoc_tess_phot_0000000012131189-s0038_tess_v1_tp",
+            "pipeline": "TESS-SPOC",
+            "priority": 1,
+            "sector": 38,
+            "uri": "mast:HLSP/tess-spoc/s0038/target/0000/0000/1213/1189/hlsp_tess-spoc_tess_phot_0000000012131189-s0038_tess_v1_lc.fits"
+          },
+          {
+            "exptime_s": 200.0,
+            "obs_id": "hlsp_qlp_tess_ffi_s0091-0000000012131189_tess_v01_llc",
+            "pipeline": "QLP",
+            "priority": 2,
+            "sector": 91,
+            "uri": "mast:HLSP/qlp/s0091/0000/0000/1213/1189/hlsp_qlp_tess_ffi_s0091-0000000012131189_tess_v01_llc.fits"
+          }
+        ],
+        "star": {
+          "contratio": 0.0145808766,
+          "dec_deg": -22.2085047525414,
+          "dist_pc": 35.6314,
+          "mass_msun": 0.433822,
+          "plx_mas": 28.0362,
+          "ra_deg": 218.300901087184,
+          "rad_rsun": 0.438186,
+          "teff_k": 3460.0,
+          "tic_id": 12131189,
+          "tmag": 11.1576
+        }
+      },
+      {
+        "products": [
+          {
+            "exptime_s": 120.0,
+            "fallbacks": [
+              {
+                "exptime_s": 600.0,
+                "obs_id": "hlsp_tess-spoc_tess_phot_0000000012881049-s0029_tess_v1_tp",
+                "pipeline": "TESS-SPOC",
+                "priority": 1,
+                "sector": 29,
+                "uri": "mast:HLSP/tess-spoc/s0029/target/0000/0000/1288/1049/hlsp_tess-spoc_tess_phot_0000000012881049-s0029_tess_v1_lc.fits"
+              },
+              {
+                "exptime_s": 600.0,
+                "obs_id": "hlsp_qlp_tess_ffi_s0029-0000000012881049_tess_v01_llc",
+                "pipeline": "QLP",
+                "priority": 2,
+                "sector": 29,
+                "uri": "mast:HLSP/qlp/s0029/0000/0000/1288/1049/hlsp_qlp_tess_ffi_s0029-0000000012881049_tess_v01_llc.fits"
+              }
+            ],
+            "obs_id": "tess2020238165205-s0029-0000000012881049-0193-s",
+            "pipeline": "SPOC",
+            "priority": 0,
+            "sector": 29,
+            "uri": "mast:TESS/product/tess2020238165205-s0029-0000000012881049-0193-s_lc.fits"
+          },
+          {
+            "exptime_s": 200.0,
+            "fallbacks": [
+              {
+                "exptime_s": 200.0,
+                "obs_id": "hlsp_qlp_tess_ffi_s0069-0000000012881049_tess_v01_llc",
+                "pipeline": "QLP",
+                "priority": 2,
+                "sector": 69,
+                "uri": "mast:HLSP/qlp/s0069/0000/0000/1288/1049/hlsp_qlp_tess_ffi_s0069-0000000012881049_tess_v01_llc.fits"
+              }
+            ],
+            "obs_id": "hlsp_tess-spoc_tess_phot_0000000012881049-s0069_tess_v1_tp",
+            "pipeline": "TESS-SPOC",
+            "priority": 1,
+            "sector": 69,
+            "uri": "mast:HLSP/tess-spoc/s0069/target/0000/0000/1288/1049/hlsp_tess-spoc_tess_phot_0000000012881049-s0069_tess_v1_lc.fits"
+          },
+          {
+            "exptime_s": 200.0,
+            "obs_id": "hlsp_qlp_tess_ffi_s0096-0000000012881049_tess_v01_llc",
+            "pipeline": "QLP",
+            "priority": 2,
+            "sector": 96,
+            "uri": "mast:HLSP/qlp/s0096/0000/0000/1288/1049/hlsp_qlp_tess_ffi_s0096-0000000012881049_tess_v01_llc.fits"
+          }
+        ],
+        "star": {
+          "contratio": 0.026329549,
+          "dec_deg": -26.082198406694,
+          "dist_pc": 32.6631,
+          "mass_msun": 0.411277,
+          "plx_mas": 30.5868,
+          "ra_deg": 345.152858197514,
+          "rad_rsun": 0.417669,
+          "teff_k": 3521.0,
+          "tic_id": 12881049,
+          "tmag": 11.0132
+        }
+      }
+    ]
+  },
+  "sha256": "eaf05cf477c519a24946124789e7ff807fffc9f32c13ba80b7e2ea13d1026171"
+}
