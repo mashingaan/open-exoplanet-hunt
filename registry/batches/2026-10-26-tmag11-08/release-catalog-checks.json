@@ -1,0 +1,145 @@
+[
+  {
+    "source": "exominer_labeled_tces",
+    "url": "https://zenodo.org/api/records/15466293/files/exominerplusplus_catalog_labeled_tces_s1-s67_tess-spoc-2min_complete_1-14-2025_1039.csv/content",
+    "retrieved_utc": "2026-10-26T14:17:35.791972+00:00",
+    "sha256": "8c97e5bff6019cd7bd979e7ad21423448d67299bdf47a98f8510d25db4f197b2",
+    "rows": 57162,
+    "complete": true,
+    "checked_tic_ids": [
+      6749695,
+      9624343
+    ],
+    "collisions": []
+  },
+  {
+    "source": "exominer_unknown_tces",
+    "url": "https://zenodo.org/api/records/15466293/files/exominerplusplus_catalog_unk_tces_s1-s67_tess-spoc-2min_complete_1-16-2025_1014.csv/content",
+    "retrieved_utc": "2026-10-26T14:18:40.706876+00:00",
+    "sha256": "e67f03cca05d46391fa391ce797df21672c78a15a33c20b82932642eef1e8792",
+    "rows": 147567,
+    "complete": true,
+    "checked_tic_ids": [
+      6749695,
+      9624343
+    ],
+    "collisions": []
+  },
+  {
+    "source": "external_candidates",
+    "url": "https://zenodo.org/api/records/19661443/files/nsfp09_table.csv/content",
+    "retrieved_utc": "2026-10-26T14:17:44.000979+00:00",
+    "sha256": "7b4fb0b02a8597cad8ecc4ca1687be1e75ab5b04fb74e7232ad834944641df3a",
+    "rows": 14815,
+    "complete": true,
+    "checked_tic_ids": [
+      6749695,
+      9624343
+    ],
+    "collisions": []
+  },
+  {
+    "source": "raven_large_radius_signals",
+    "url": "https://zenodo.org/api/records/19661443/files/val_rp8_table.csv/content",
+    "retrieved_utc": "2026-10-26T14:17:19.577853+00:00",
+    "sha256": "94f035680944937d5873ecefcfeeb69ddd5982b537edff841cdee3027b73c356",
+    "rows": 207,
+    "complete": true,
+    "checked_tic_ids": [
+      6749695,
+      9624343
+    ],
+    "collisions": []
+  },
+  {
+    "source": "raven_validated_signals",
+    "url": "https://zenodo.org/api/records/19661443/files/val_table.csv/content",
+    "retrieved_utc": "2026-10-26T14:17:18.239638+00:00",
+    "sha256": "dbef90f19a5714bb0ed93e8e637a04b50fb506f9ddaf29829951032b751358f8",
+    "rows": 143,
+    "complete": true,
+    "checked_tic_ids": [
+      6749695,
+      9624343
+    ],
+    "collisions": []
+  },
+  {
+    "source": "raven_vetted_signals",
+    "url": "https://zenodo.org/api/records/19661443/files/vet_table.csv/content",
+    "retrieved_utc": "2026-10-26T14:17:17.067926+00:00",
+    "sha256": "59760bd0bd749f74bb2f25e5567ef92b34209821b7a8e436038a84124bdd1df8",
+    "rows": 2170,
+    "complete": true,
+    "checked_tic_ids": [
+      6749695,
+      9624343
+    ],
+    "collisions": []
+  },
+  {
+    "source": "t16_periodic_candidates",
+    "url": "https://content.cld.iop.org/journals/0067-0049/284/1/19/revision1/apjsae5b6ct1_mrt.txt",
+    "retrieved_utc": "2026-10-26T14:18:41.035484+00:00",
+    "sha256": "794bb20e680229e9c47dd8dd8f63b2bb402fd9c7752545a8c943da21609184b9",
+    "rows": 11143,
+    "complete": true,
+    "checked_tic_ids": [
+      6749695,
+      9624343
+    ],
+    "collisions": []
+  },
+  {
+    "source": "t16_single_transit_candidates",
+    "url": "https://content.cld.iop.org/journals/0067-0049/284/1/19/revision1/apjsae5b6ct2_mrt.txt",
+    "retrieved_utc": "2026-10-26T14:18:41.056171+00:00",
+    "sha256": "04a47c9979ba7cc057b9d31f860789e10037552a8222d9e8be6edb4947425d88",
+    "rows": 411,
+    "complete": true,
+    "checked_tic_ids": [
+      6749695,
+      9624343
+    ],
+    "collisions": []
+  },
+  {
+    "source": "tess_eb",
+    "url": "https://archive.stsci.edu/hlsps/tess-ebs/hlsp_tess-ebs_tess_lcf-ffi_s0001-s0026_tess_v1.0_cat.csv",
+    "retrieved_utc": "2026-10-26T14:17:37.753014+00:00",
+    "sha256": "97e81f6c01716a431379ab6bd37d1182b611a485107110e0eba830f817ba7a8f",
+    "rows": 4584,
+    "complete": true,
+    "checked_tic_ids": [
+      6749695,
+      9624343
+    ],
+    "collisions": []
+  },
+  {
+    "source": "tess_eb_kostov2025",
+    "url": "https://tapvizier.cds.unistra.fr/TAPVizieR/tap/sync?request=doQuery&lang=ADQL&format=csv&query=SELECT%20TIC%20FROM%20%22J%2FApJS%2F279%2F50%2Ftable3%22",
+    "retrieved_utc": "2026-10-26T14:17:36.805740+00:00",
+    "sha256": "25d4b0764d9fdfa17de56ebd7c80358da8bfe7f956f7e47abd4bc35ed81d023e",
+    "rows": 7936,
+    "complete": true,
+    "checked_tic_ids": [
+      6749695,
+      9624343
+    ],
+    "collisions": []
+  },
+  {
+    "source": "tess_eb_live_villanova",
+    "url": "https://tessebs.villanova.edu/search_results?order_by=tic__tess_id&then_order_by=none&incat_only=on&display_format=csv&c=tic__tess_id",
+    "retrieved_utc": "2026-10-26T14:17:11.720791+00:00",
+    "sha256": "158ecf2fae56c8f0808cafd594e00d375e8ec5d373c19d1ed4af28dbe9f43236",
+    "rows": 4584,
+    "complete": true,
+    "checked_tic_ids": [
+      6749695,
+      9624343
+    ],
+    "collisions": []
+  }
+]
