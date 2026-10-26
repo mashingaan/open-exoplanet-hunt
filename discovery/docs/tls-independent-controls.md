@@ -4,11 +4,36 @@ This contribution contains only the generic detector, synthetic controls and
 their reproducibility evidence. No astronomical scan or private candidate is
 included. Existing `scripts/` and the astronomical registry remain unchanged.
 Development history below includes private Actions links. The complete compact
-receipts are released here for inspection, while a fresh public hosted pair
-will establish reproducibility from this contribution's own commit. Until
-that pair completes, development results do not claim public CI verification.
+receipts are released here for inspection. A fresh public hosted pair has
+also completed at this contribution's own frozen experiment commit, with
+[machine-readable public verification](../validation/tls-controls-v1/public-verification.json).
 The ordinary upstream suite has ten tests, with two input-contract tests added
 here. The 36-test counts below describe the separate development workspace.
+The cases were fixed before the original development execution. Public runs
+reproduce those already known control outcomes, rather than constituting a
+new blinded experiment.
+
+Original contribution code and metadata use the repository's MIT license.
+External packages retain their own licenses and citation requirements. No
+third-party package source or telescope data is redistributed here.
+
+## Public reproduction evidence
+
+Public runs [40315351988](https://github.com/mashingaan/open-exoplanet-hunt/actions/runs/40315351988)
+and [40315612271](https://github.com/mashingaan/open-exoplanet-hunt/actions/runs/40315612271)
+both passed the repository verifier, 12 deterministic tests and all six fixed
+controls at `99ae48ad78a2ddf3d4566664e393214fd4d907e4`. The second run's
+`--compare` passed. Complete science receipts and all six spectral containers
+are byte-identical. Both public hosts reported AMD EPYC 9V45. The separate
+development pair tested two different EPYC models. Neither establishes
+universal architecture independence.
+
+The fork tag `tls-controls-v1-experiment` retains the executed source. A repeat
+can be dispatched in `mashingaan/open-exoplanet-hunt` with that tag as the ref
+and `comparison_run_id=40315351988` while the original artifact remains
+available. After artifact expiry, regenerate a first run from the tag and
+compare a second run to its ID. Compact receipts remain in git, with spectral
+hashes and complete inputs needed to regenerate the numerical artifacts.
 
 This evaluation adds an independent transit period-search component before
 using it on astronomical targets. It does not create candidates or modify the

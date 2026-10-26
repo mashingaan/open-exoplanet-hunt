@@ -3,8 +3,8 @@
 The runs in this development history were executed in a private orchestration
 repository, so their Actions links may require access. Complete compact receipts
 are included in this public contribution without astronomical target searches
-or candidate data. Its own fresh public validation will be recorded separately
-in `public-verification.json` after execution. A development run's commit ID
+or candidate data. Its own fresh public validation is recorded separately
+in `public-verification.json`. A development run's commit ID
 is provenance for that execution, not a claim that this public repository
 contains that private commit.
 
@@ -108,3 +108,29 @@ environment on these two hosts. It does not establish the original failure's
 mechanism, universal cross-platform determinism or astronomical performance.
 The same three warnings remain. Real-product recovery and independent
 photometric reductions are still required before operational TLS searches.
+
+## Public pair and reusable result record
+
+Public runs [40315351988](https://github.com/mashingaan/open-exoplanet-hunt/actions/runs/40315351988)
+and [40315612271](https://github.com/mashingaan/open-exoplanet-hunt/actions/runs/40315612271)
+passed at `99ae48ad78a2ddf3d4566664e393214fd4d907e4`, retained by fork tag
+`tls-controls-v1-experiment`. Each passed the verifier, all 12 upstream-plus-TLS
+tests and all six scientific controls. The second run's exact comparison passed.
+All 23 manifested files per run were hash-checked. Complete scientific receipts
+and all six spectral containers match byte for byte, and the public scientific
+receipt also matches the validated generic development receipt exactly.
+
+The stable result ID is `OEH-CONTROL-TLS-V1-20261026`. Its
+[public-verification.json](public-verification.json) records status, reason
+codes, checksums, terminal public run states, limitations and source equivalence
+to the generic development implementation. The 58540-byte
+`public-receipts.tar.gz` permanently retains the public scientific, runtime,
+warning, environment and original manifest receipts. Numerical arrays and plots
+remain hosted for 30 days and can be regenerated from the tagged source.
+
+Only synthetic controls were evaluated. No new planet claim or astronomical
+search coverage is made, and no candidate dossier or private observation was
+released. Known objects and new observational products require their own future
+validation. Original contribution code and metadata use the existing MIT
+license, with external package authorship, license and citation requirements
+preserved in the method note.

@@ -1,0 +1,75 @@
+{
+  "archive_bytes": 58540,
+  "archive_scope": "Complete science, provenance, runtime, warnings and original manifests. Spectral arrays and plots omitted from git, their original hashes retained. All artifact files verified before archiving.",
+  "archive_sha256": "7c5ad2936c08b6004684499d0234478512f62e275ef49b57889a3a1c409d3f32",
+  "astronomical_targets_searched": 0,
+  "catalog_refresh": "Not applicable to synthetic controls without astronomical searches",
+  "exact_replay_passed": true,
+  "experiment_id": "tls-independent-controls-v1",
+  "limitations": [
+    "Single matched noise realization is not completeness or false-alarm calibration",
+    "Public pair reproduces previously known fixed controls, not a new blinded trial",
+    "No astronomical search or novel planet claim",
+    "No real MAST recovery, independent reductions, sparse or long-baseline validation",
+    "Full numerical arrays remain hosted for 30 days and reproducible from the public source commit"
+  ],
+  "real_target_deployment_authorized": false,
+  "reason_codes": [
+    "ALL_PREREGISTERED_CHECKS_PASS",
+    "EXACT_REPLAY_PASS",
+    "REAL_DATA_NOT_VALIDATED"
+  ],
+  "result_id": "OEH-CONTROL-TLS-V1-20261026",
+  "runs": [
+    {
+      "all_six_scientific_controls_passed": true,
+      "conclusion": "success",
+      "deterministic_tests_passed": 12,
+      "headSha": "99ae48ad78a2ddf3d4566664e393214fd4d907e4",
+      "host_model_names": [
+        "model name\t: AMD EPYC 9V45 96-Core Processor"
+      ],
+      "manifest_files_verified": 23,
+      "manifest_sha256": "a2876d001f785f6862f697a02d3a35e2c2fb6e8c6a2e926040468478e0340b0a",
+      "run_id": 40315351988,
+      "science_sha256": "31ab1372d468deb11d2a1d7346b0e7132f36c6d1046612420ca876ad948658b1",
+      "status": "completed",
+      "url": "https://github.com/mashingaan/open-exoplanet-hunt/actions/runs/40315351988"
+    },
+    {
+      "all_six_scientific_controls_passed": true,
+      "conclusion": "success",
+      "deterministic_tests_passed": 12,
+      "headSha": "99ae48ad78a2ddf3d4566664e393214fd4d907e4",
+      "host_model_names": [
+        "model name\t: AMD EPYC 9V45 96-Core Processor"
+      ],
+      "manifest_files_verified": 23,
+      "manifest_sha256": "73f78258e65d7327bab2c045ba0971c561e0aa9f3a51a26635d3e59814876bfd",
+      "run_id": 40315612271,
+      "science_sha256": "31ab1372d468deb11d2a1d7346b0e7132f36c6d1046612420ca876ad948658b1",
+      "status": "completed",
+      "url": "https://github.com/mashingaan/open-exoplanet-hunt/actions/runs/40315612271"
+    }
+  ],
+  "schema_version": 1,
+  "science_receipts_byte_identical": true,
+  "source_equivalence_to_development_generic_commit": {
+    ".github/workflows/tls-controls.yml": "0b122ae75b0a86384711a0ef446b1fb313d7bcfd2ccbac6e2f60e2908953107b",
+    "discovery/adapters/tls.py": "e1a3f94af273a1c271bbc736ef4e53c66b4cdddeed3c5c7fb2ce86b7bf994293",
+    "discovery/controls/tls-v1.json": "e4c5b7a90f35d493bde2f81c71ad3f3f8d5128a6589b8e73a42a496b73215d4f",
+    "discovery/tls-requirements.txt": "61e5c422cc729ed8732ad484c74c3a3025f6e6df62020404e4fd749e8e2c6d49",
+    "discovery/tls_controls.py": "2b181a6438720f0f7ba0f60c198349cd5c35febd067e39d8ae85292d6edad268",
+    "tests/test_discovery_tls_contract.py": "b6c0e6f7efff09b3193e1fb3b9936262ea5be096328a094711c851c111494580"
+  },
+  "spec_sha256": "e4c5b7a90f35d493bde2f81c71ad3f3f8d5128a6589b8e73a42a496b73215d4f",
+  "spectral_containers_byte_identical": {
+    "control-centroid_blend-spectra.npz": true,
+    "control-missing_sector-spectra.npz": true,
+    "control-positive-spectra.npz": true,
+    "control-rotation-spectra.npz": true,
+    "control-secondary_eclipse-spectra.npz": true,
+    "control-white_noise-spectra.npz": true
+  },
+  "status": "SYNTHETIC_CONTROLS_VALIDATED"
+}
