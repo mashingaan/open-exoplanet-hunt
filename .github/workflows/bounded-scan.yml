@@ -1,0 +1,60 @@
+name: Bounded TESS batch
+on:
+  workflow_dispatch:
+    inputs:
+      page:
+        default: '1'
+        required: true
+      max_targets:
+        default: '2'
+        required: true
+      tmag_min:
+        default: '11.0'
+        required: true
+      tmag_max:
+        default: '11.2'
+        required: true
+permissions:
+  contents: read
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    env:
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+      PYTHONUNBUFFERED: '1'
+      MPLBACKEND: Agg
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: .github/scan-requirements.txt
+      - run: pip install -r .github/scan-requirements.txt
+      - run: python -B scripts/verify_all.py
+      - run: python -B -m unittest discover -s tests -v
+      - uses: actions/cache@v4
+        with:
+          path: .cache/mast
+          key: tess-mast-${{ github.run_id }}
+          restore-keys: tess-mast-
+      - name: Search unchanged upstream pipeline
+        env:
+          BATCH_PAGE: ${{ inputs.page }}
+          BATCH_MAX_TARGETS: ${{ inputs.max_targets }}
+          BATCH_TMAG_MIN: ${{ inputs.tmag_min }}
+          BATCH_TMAG_MAX: ${{ inputs.tmag_max }}
+        run: python -B .github/run_bounded_batch.py
+      - run: python -B scripts/verify_all.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: tess-batch-${{ github.run_id }}
+          path: |
+            batch-output/
+            registry/scanned_targets.jsonl
+            registry/leaderboard.json
+            candidates/
+          retention-days: 30
