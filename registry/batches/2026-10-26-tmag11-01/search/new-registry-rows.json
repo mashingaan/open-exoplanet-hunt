@@ -1,0 +1,58 @@
+[
+  {
+    "best_period_d": 1.3476502,
+    "combined_bls_snr": 6.51,
+    "dist_pc": 24.1127,
+    "failed_gates": [
+      "gate3_combined_bls_snr",
+      "gate4_leave_one_epoch_out",
+      "gate9_per_transit_coherence",
+      "gate10_rotational_modulation_guard"
+    ],
+    "gates_passed": 6,
+    "inferred_rp_rearth": 0.6,
+    "loeo_mean_z": 1.62,
+    "loeo_min_z": 0.28,
+    "rad_rsun": 0.327288,
+    "scanned_utc": "2026-10-26T07:14:41Z",
+    "sectors": [
+      17,
+      57,
+      84
+    ],
+    "t0_btjd": 1765.57308,
+    "teff_k": 3391.0,
+    "tic_id": 115474342,
+    "tmag": 11.1123,
+    "verdict": "REJECTED_BY_FALSIFICATION",
+    "weighted_dip_ppm": 278.4
+  },
+  {
+    "best_period_d": 2.5374132,
+    "combined_bls_snr": 6.98,
+    "dist_pc": 37.4485,
+    "failed_gates": [
+      "gate3_combined_bls_snr",
+      "gate4_leave_one_epoch_out",
+      "gate9_per_transit_coherence",
+      "gate10_rotational_modulation_guard"
+    ],
+    "gates_passed": 6,
+    "inferred_rp_rearth": 0.74,
+    "loeo_mean_z": 2.68,
+    "loeo_min_z": 1.66,
+    "rad_rsun": 0.436996,
+    "scanned_utc": "2026-10-26T07:14:52Z",
+    "sectors": [
+      17,
+      57,
+      84
+    ],
+    "t0_btjd": 1766.51539,
+    "teff_k": 3576.0,
+    "tic_id": 432694531,
+    "tmag": 11.1107,
+    "verdict": "REJECTED_BY_FALSIFICATION",
+    "weighted_dip_ppm": 240.4
+  }
+]
