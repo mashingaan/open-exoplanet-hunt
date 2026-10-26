@@ -1,0 +1,59 @@
+{
+  "archive_bytes": 58522,
+  "archive_scope": "Complete science, provenance, runtime, warnings and original manifests. Spectral arrays and plots omitted from git, their original hashes retained. All artifact files verified before archiving.",
+  "archive_sha256": "2a93a6a61bdc801c53c0341aceedee27431d5e3acacfc093d003fbefc42c7ade",
+  "astronomical_targets_searched": 0,
+  "exact_replay_passed": true,
+  "experiment_id": "tls-independent-controls-v1",
+  "limitations": [
+    "One matched noise realization, not a completeness or false-alarm calibration",
+    "Different AMD EPYC models tested, not every architecture or platform",
+    "Generic environment pair is not proof of the original discrepancy mechanism",
+    "No actual MAST recovery, independent photometric reductions or sparse/long-baseline validation",
+    "Positive numba reference spectrum is checked within run but its numerical arrays are not separately saved"
+  ],
+  "real_target_deployment_authorized": false,
+  "runs": [
+    {
+      "all_six_scientific_controls_passed": true,
+      "conclusion": "success",
+      "deterministic_tests_passed": 36,
+      "headSha": "deff0b5ae7a94503e456952ec89930dbad69ce3c",
+      "host_model_names": [
+        "model name\t: AMD EPYC 9V45 96-Core Processor"
+      ],
+      "manifest_files_verified": 23,
+      "manifest_sha256": "c227abfc766c6aedcec7ea42839015a9648a65f2293d897b1eda86ce4c368d3b",
+      "run_id": 40314050728,
+      "science_sha256": "31ab1372d468deb11d2a1d7346b0e7132f36c6d1046612420ca876ad948658b1",
+      "status": "completed",
+      "url": "https://github.com/mashingaan/tess-discovery/actions/runs/40314050728"
+    },
+    {
+      "all_six_scientific_controls_passed": true,
+      "conclusion": "success",
+      "deterministic_tests_passed": 36,
+      "headSha": "deff0b5ae7a94503e456952ec89930dbad69ce3c",
+      "host_model_names": [
+        "model name\t: AMD EPYC 9V74 80-Core Processor"
+      ],
+      "manifest_files_verified": 23,
+      "manifest_sha256": "0f2a0eae36117aed7be93634a6a0e2acd9f7a1d00d114c6c70971d5cfbb6b002",
+      "run_id": 40314272648,
+      "science_sha256": "31ab1372d468deb11d2a1d7346b0e7132f36c6d1046612420ca876ad948658b1",
+      "status": "completed",
+      "url": "https://github.com/mashingaan/tess-discovery/actions/runs/40314272648"
+    }
+  ],
+  "science_receipts_byte_identical": true,
+  "spec_sha256": "e4c5b7a90f35d493bde2f81c71ad3f3f8d5128a6589b8e73a42a496b73215d4f",
+  "spectral_containers_byte_identical": {
+    "control-centroid_blend-spectra.npz": true,
+    "control-missing_sector-spectra.npz": true,
+    "control-positive-spectra.npz": true,
+    "control-rotation-spectra.npz": true,
+    "control-secondary_eclipse-spectra.npz": true,
+    "control-white_noise-spectra.npz": true
+  },
+  "synthetic_validation_complete_for_recorded_environment_only": true
+}

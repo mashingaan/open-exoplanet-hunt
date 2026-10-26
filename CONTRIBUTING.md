@@ -1,5 +1,11 @@
 # Contributing to Open Exoplanet Hunt
 
+An optional [preregistered TLS detector evaluation](discovery/docs/tls-independent-controls.md)
+provides independent synthetic transit detection and adversarial controls.
+Its manual hosted workflow keeps TLS dependencies separate from ordinary
+verification. It does not scan astronomical targets, change the ten gates,
+establish completeness or authorize new candidate claims.
+
 Human astronomers, citizen scientists, developers, and autonomous AI coding agents (`Claude Code`, `Codex`, `Antigravity`, `Cursor`, etc.) are invited to contribute!
 
 ---

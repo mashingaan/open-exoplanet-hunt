@@ -1,0 +1,123 @@
+{
+  "archive_bytes": 54686,
+  "archive_scope": "Complete science, provenance, warnings and original manifests from both runs, plus replay failure. Spectral arrays and plots remain hosted and are not included. Original manifests intentionally also identify those omitted files.",
+  "archive_sha256": "f84a18a89d9329f4263fc4199372eef31be696557e8eed00a468de8a395bae62",
+  "deployment_authorized": false,
+  "diagnosis": "Seventeen JSON field differences confined to TLS spectral hashes and SDE last digits. Input hashes, BLS receipts, periods, all gate receipts and checks are identical. Hardware or numerical implementation cause is not yet established.",
+  "diagnostic_plot_inspected": true,
+  "differences": [
+    {
+      "path": "/controls/0/reference_tls/scalars/SDE",
+      "replay": 20.083555782302966,
+      "source": 20.083555782302955
+    },
+    {
+      "path": "/controls/0/reference_tls/scalars/SDE_raw",
+      "replay": 19.892539233548515,
+      "source": 19.892539233548487
+    },
+    {
+      "path": "/controls/0/reference_tls/spectrum_sha256",
+      "replay": "1e013cc6ca0997c910610b0a54781c117bac8f18892b301eeb48b28cf52a43ef",
+      "source": "5b8b2161b89256c932acf4115fc7fae7a55511903926c509722f4f753f545494"
+    },
+    {
+      "path": "/controls/0/tls/scalars/SDE",
+      "replay": 20.08355578230288,
+      "source": 20.083555782302884
+    },
+    {
+      "path": "/controls/0/tls/spectrum_sha256",
+      "replay": "dee8b064b79a331bbb4042e8bcf8a2883faac34c9d306740766cedef2d7ddb01",
+      "source": "4645e403a68712ac57329a6bb50756cd12601aff606773185ee6ff6fd4dc96d3"
+    },
+    {
+      "path": "/controls/1/tls/scalars/SDE",
+      "replay": 5.880749661221772,
+      "source": 5.880749661221773
+    },
+    {
+      "path": "/controls/1/tls/spectrum_sha256",
+      "replay": "922965f8152ba0e83f251f77d4f4cc174060e67c30fe25c545ab5739bf6be698",
+      "source": "fb886742ce1c5fcf551a789e238098935168a83888206841621e3e97b296754a"
+    },
+    {
+      "path": "/controls/2/tls/scalars/SDE",
+      "replay": 12.643253727468137,
+      "source": 12.64325372746813
+    },
+    {
+      "path": "/controls/2/tls/scalars/SDE_raw",
+      "replay": 6.011425706695911,
+      "source": 6.01142570669591
+    },
+    {
+      "path": "/controls/2/tls/spectrum_sha256",
+      "replay": "49a913ce15b36d1d1ce27a1c73e3b4148c6a06dcc4d8adefd548d6f8d68e1ea9",
+      "source": "07dcf25682a104f96704bdf78f10740e70c725a2ce183ffd80575b30d140024a"
+    },
+    {
+      "path": "/controls/3/tls/scalars/SDE",
+      "replay": 20.37877645478745,
+      "source": 20.378776454787463
+    },
+    {
+      "path": "/controls/3/tls/scalars/SDE_raw",
+      "replay": 20.267385775081777,
+      "source": 20.267385775081795
+    },
+    {
+      "path": "/controls/3/tls/spectrum_sha256",
+      "replay": "1eb8439176033366079029f039f742889e3072d750db3fe1aec89e8d6a68a054",
+      "source": "8ea841956a8b8b9fc65050a2e3964491f704e41631d21b4670a2fde5b64a1e3d"
+    },
+    {
+      "path": "/controls/4/tls/scalars/SDE_raw",
+      "replay": 13.966116964485094,
+      "source": 13.966116964485096
+    },
+    {
+      "path": "/controls/4/tls/spectrum_sha256",
+      "replay": "1a0ca78d4b9f0160610aab845eb3c035902a6ffb43575fc58f4c20fa2fd0c99b",
+      "source": "7e4a22a5123278c6400afd7478aa57e042b99819a706406a2bb0cb7c07d6bf08"
+    },
+    {
+      "path": "/controls/5/tls/scalars/SDE",
+      "replay": 20.08355578230288,
+      "source": 20.083555782302884
+    },
+    {
+      "path": "/controls/5/tls/spectrum_sha256",
+      "replay": "dee8b064b79a331bbb4042e8bcf8a2883faac34c9d306740766cedef2d7ddb01",
+      "source": "4645e403a68712ac57329a6bb50756cd12601aff606773185ee6ff6fd4dc96d3"
+    }
+  ],
+  "exact_replay_passed": false,
+  "experiment_id": "tls-independent-controls-v1",
+  "next_experiment": "Same immutable scientific specification, generic Numba CPU target and baseline-only NumPy dispatch, new JIT cache namespace, with host/runtime diagnostics. Exact replay criterion unchanged.",
+  "runs": [
+    {
+      "all_six_scientific_controls_passed": true,
+      "conclusion": "success",
+      "headSha": "322682ee6e97fe3f6ef1ed0491a3020c916a7c08",
+      "manifest_files_verified": 22,
+      "manifest_sha256": "b229b397bf98c7dc9a42682baa84d16252806bf40e2a1bc28d3d3282b618722e",
+      "run_id": 40312711422,
+      "science_sha256": "9ca666e67486a075d0ca18bc2f3f26483e15bae0a9ace87171d7e73384a3aeeb",
+      "status": "completed",
+      "url": "https://github.com/mashingaan/tess-discovery/actions/runs/40312711422"
+    },
+    {
+      "all_six_scientific_controls_passed": true,
+      "conclusion": "failure",
+      "headSha": "322682ee6e97fe3f6ef1ed0491a3020c916a7c08",
+      "manifest_files_verified": 23,
+      "manifest_sha256": "3a8a25bb931c48406478177254ba6e78ba5694428fffd1543423702078c0efca",
+      "run_id": 40313351384,
+      "science_sha256": "1d5cdb12ec12d79a2f108579af073e36e2731717341efb3031565df0d29fa924",
+      "status": "completed",
+      "url": "https://github.com/mashingaan/tess-discovery/actions/runs/40313351384"
+    }
+  ],
+  "spec_sha256": "e4c5b7a90f35d493bde2f81c71ad3f3f8d5128a6589b8e73a42a496b73215d4f"
+}

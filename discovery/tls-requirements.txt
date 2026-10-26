@@ -1,0 +1,11 @@
+astropy==7.1.1
+numpy==2.3.4
+scipy==1.16.3
+matplotlib==3.10.7
+requests==2.32.5
+setuptools==80.9.0
+numba==0.68.0
+llvmlite==0.50.0
+tqdm==4.70.1
+batman-package==2.5.3
+transitleastsquares @ git+https://github.com/hippke/tls.git@7666720794a3cc064535055917500c96dbd90b52

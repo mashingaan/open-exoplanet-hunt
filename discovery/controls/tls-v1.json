@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "experiment_id": "tls-independent-controls-v1",
+  "purpose": "Synthetic detector and falsification controls only, never astronomical candidates",
+  "frozen_before_execution": true,
+  "generator": {
+    "package": "batman-package", "version": "2.5.3",
+    "release_reference_commit": "6fc570e209fa2e3dadd2ffa4c535f528a7bef495",
+    "period_days": 3.1828, "epoch_days": 100.42, "radius_ratio": 0.03,
+    "stellar_radius_solar": 0.65, "stellar_mass_solar": 0.63,
+    "inclination_deg": 89.0, "eccentricity": 0.0, "omega_deg": 90.0,
+    "limb_darkening": [0.4, 0.2], "limb_darkening_law": "quadratic",
+    "exposure_seconds": 1800, "supersample_factor": 7,
+    "windows_days": [[100, 114], [116, 130], [132, 146]],
+    "flux_sigma": 0.00022, "centroid_sigma_pixels": 0.002,
+    "rng": "numpy Generator PCG64", "flux_seed": 42, "centroid_seed": 43,
+    "matched_noise_across_cases": true
+  },
+  "tls": {
+    "version": "2.0.1", "commit": "7666720794a3cc064535055917500c96dbd90b52",
+    "power": {
+      "backend": "fused", "use_threads": 1, "period_min": 1.1, "period_max": 8.0,
+      "n_transits_min": 3, "oversampling_factor": 3, "duration_grid_step": 1.1,
+      "transit_depth_min": 0.00001, "T0_fit_margin": 0.01, "T0_search_margin": 0.01,
+      "SDE_detrend": "median", "transit_template": "default",
+      "R_star": 0.65, "R_star_min": 0.55, "R_star_max": 0.75,
+      "M_star": 0.63, "M_star_min": 0.53, "M_star_max": 0.73,
+      "show_progress_bar": false, "verbose": false
+    },
+    "reference_backend": "numba", "reference_control": "positive",
+    "backend_spectrum_absolute_tolerance": 0.000001,
+    "backend_spectrum_relative_tolerance": 0.00000001
+  },
+  "bls": {
+    "implementation": "astropy.timeseries.BoxLeastSquares",
+    "period_min": 1.1, "period_max": 8.0, "frequency_grid_points": 4500,
+    "duration_min_days": 0.04, "duration_max_days": 0.14, "duration_grid_points": 7,
+    "objective": "snr"
+  },
+  "positive_recovery_relative_period_tolerance": 0.002,
+  "fixed_alias_multipliers": [2.0, 0.5, 1.5, 0.6666666666666666],
+  "cases": [
+    {"id": "positive", "transit_scale": 1.0, "expected": "period_recovered_and_primary_ten_gates_pass"},
+    {"id": "white_noise", "transit_scale": 0.0, "expected": "no_primary_or_fixed_alias_passes_all_ten"},
+    {"id": "rotation", "transit_scale": 0.0, "sine_amplitude": 0.001,
+     "expected": "no_primary_or_fixed_alias_passes_all_ten", "primary_veto_any": ["gate7_physical_plausibility", "gate10_rotational_modulation_guard"]},
+    {"id": "secondary_eclipse", "transit_scale": 3.0, "secondary_scale": 1.2,
+     "expected": "no_primary_or_fixed_alias_passes_all_ten", "primary_veto_any": ["gate5_odd_even_consistency", "gate6_secondary_eclipse_null"]},
+    {"id": "missing_sector", "transit_scale": 1.0, "remove_signal_sector_indices": [2],
+     "expected": "no_primary_or_fixed_alias_passes_all_ten", "primary_veto_any": ["gate4_leave_one_epoch_out"]},
+    {"id": "centroid_blend", "transit_scale": 1.0, "centroid_shift_pixels": 0.2,
+     "expected": "no_primary_or_fixed_alias_passes_all_ten", "primary_veto_any": ["gate8_centroid_stability"]}
+  ],
+  "deployment_rule": "A failed preregistered control blocks deployment. Preserve failures and do not relax criteria to obtain a pass.",
+  "limitations": [
+    "A single matched noise realization is not a completeness or false-alarm calibration",
+    "Three short synthetic windows do not validate sparse, multi-year or heterogeneous-cadence searches",
+    "TLS supplies an independent period search but downstream ten-gate evaluation still uses the upstream BLS refinement",
+    "The diluted secondary control is a superposition of transit-shaped dips, not a full physical binary model",
+    "No real MAST products, known-planet recovery or independent photometric reductions are tested here"
+  ]
+}

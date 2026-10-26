@@ -1,0 +1,57 @@
+{
+  "entries": [
+    {
+      "authors": [
+        {
+          "family": "Kreidberg",
+          "given": "Laura"
+        }
+      ],
+      "doi": "10.1086/683602",
+      "doi_url": "https://doi.org/10.1086/683602",
+      "metadata_sha256": "f2b79df47a419314508af2982bf127450d2222d56b298a99880d4f8e6d4dacba",
+      "metadata_url": "https://api.crossref.org/works/10.1086/683602",
+      "published": {
+        "date-parts": [
+          [
+            2015,
+            11
+          ]
+        ]
+      },
+      "title": [
+        "<tt>batman</tt>\n                    : BAsic Transit Model cAlculatioN in Python"
+      ]
+    },
+    {
+      "authors": [
+        {
+          "family": "Hippke",
+          "given": "Michael"
+        },
+        {
+          "family": "Heller",
+          "given": "Ren\u00e9"
+        }
+      ],
+      "doi": "10.1051/0004-6361/201834672",
+      "doi_url": "https://doi.org/10.1051/0004-6361/201834672",
+      "metadata_sha256": "2ab0c36a7045a65529e14bdf08b1695bf4348a0403b585c4ce9fbcfeb078689f",
+      "metadata_url": "https://api.crossref.org/works/10.1051/0004-6361/201834672",
+      "published": {
+        "date-parts": [
+          [
+            2019,
+            2,
+            28
+          ]
+        ]
+      },
+      "title": [
+        "Optimized transit detection algorithm to search for periodic transits of small planets"
+      ]
+    }
+  ],
+  "retrieved_utc": "2026-10-26T11:05:50.520444+00:00",
+  "role": "Publication metadata verification only, not independent validation of current software"
+}
