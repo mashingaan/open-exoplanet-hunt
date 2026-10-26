@@ -119,6 +119,23 @@ def evaluate_receipt(meta, sectors, **kwargs):
 
 
 hunt.evaluate_signal_from_arrays = evaluate_receipt
+select_original = hunt.query_candidate_km_dwarfs
+
+
+def select_receipt(**kwargs):
+    stars = select_original(**kwargs)
+    page = kwargs.get("page", 1)
+    cached = ROOT / f".cache/mast/tic_page_{page}_200.json"
+    save(f"selection-page-{page}.json", {
+        "arguments": kwargs,
+        "returned_stars": stars,
+        "cached_mast_rows": json.loads(cached.read_text()),
+        "cache_sha256": digest(cached),
+    })
+    return stars
+
+
+hunt.query_candidate_km_dwarfs = select_receipt
 results = hunt.run_hunt(**config)
 assert len(results) == config["max_targets"], "Incomplete batch, inspect query receipts and logs"
 assert all(r["tic_id"] not in baseline_ids for r in results)
