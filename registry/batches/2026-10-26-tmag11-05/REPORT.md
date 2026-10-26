@@ -48,7 +48,11 @@ requests 2.32.5, OPENBLAS_NUM_THREADS=1 and OMP_NUM_THREADS=1.
 It downloads original public MAST products, checks each SHA-256, and requires
 exact primary and alias evaluations against the released catalog snapshot.
 Neighbor metadata queries are preserved but not independently replayed by this command.
-Public hosted reproduction remains pending.
+Public hosted [reproduction 40328329643](https://github.com/mashingaan/open-exoplanet-hunt/actions/runs/40328329643)
+passed at contribution commit `ef308e3`. Its checkout commit was verified in
+the log because the workflow itself runs from the fork's runner branch.
+Both primary evaluations and all eight fixed aliases reproduced exactly.
+Repository verification, all ten adversarial tests and the clean-tree check passed.
 
 Before preparing this release, upstream main was refreshed to
 `19e5e9e8ca72c8e584fd08a92276d285ca474888` and neither target was present in its
