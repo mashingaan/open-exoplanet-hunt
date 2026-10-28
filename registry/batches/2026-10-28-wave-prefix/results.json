@@ -1,0 +1,116 @@
+[
+  {
+    "best_period_d": 3.3226347,
+    "combined_bls_snr": 8.26,
+    "dist_pc": 36.4941,
+    "failed_gates": [
+      "gate4_leave_one_epoch_out",
+      "gate5_odd_even_consistency",
+      "gate9_per_transit_coherence"
+    ],
+    "gates_passed": 7,
+    "inferred_rp_rearth": 1.17,
+    "loeo_mean_z": 0.27,
+    "loeo_min_z": -1.24,
+    "rad_rsun": 0.424173,
+    "scanned_utc": "2026-10-28T14:10:56Z",
+    "sectors": [
+      54,
+      81,
+      92
+    ],
+    "t0_btjd": 2771.0322,
+    "teff_k": 3536.0,
+    "tic_id": 71254978,
+    "tmag": 11.1744,
+    "verdict": "REJECTED_BY_FALSIFICATION",
+    "weighted_dip_ppm": 635.5
+  },
+  {
+    "best_period_d": 6.9805105,
+    "combined_bls_snr": 5.36,
+    "dist_pc": 43.1987,
+    "failed_gates": [
+      "gate3_combined_bls_snr",
+      "gate4_leave_one_epoch_out",
+      "gate9_per_transit_coherence"
+    ],
+    "gates_passed": 7,
+    "inferred_rp_rearth": 1.45,
+    "loeo_mean_z": 1.24,
+    "loeo_min_z": -0.79,
+    "rad_rsun": 0.513952,
+    "scanned_utc": "2026-10-28T14:10:55Z",
+    "sectors": [
+      43,
+      44,
+      45,
+      71
+    ],
+    "t0_btjd": 2478.64408,
+    "teff_k": 3467.0,
+    "tic_id": 62468883,
+    "tmag": 11.0882,
+    "verdict": "REJECTED_BY_FALSIFICATION",
+    "weighted_dip_ppm": 664.8
+  },
+  {
+    "best_period_d": 12.0078239,
+    "combined_bls_snr": 12.09,
+    "dist_pc": 49.062,
+    "failed_gates": [
+      "gate4_leave_one_epoch_out",
+      "gate5_odd_even_consistency",
+      "gate8_centroid_stability",
+      "gate9_per_transit_coherence"
+    ],
+    "gates_passed": 6,
+    "inferred_rp_rearth": 1.67,
+    "loeo_mean_z": -0.36,
+    "loeo_min_z": -1.71,
+    "rad_rsun": 0.513023,
+    "scanned_utc": "2026-10-28T14:11:07Z",
+    "sectors": [
+      3,
+      4,
+      30,
+      31,
+      97
+    ],
+    "t0_btjd": 1397.81044,
+    "teff_k": 3690.0,
+    "tic_id": 101070518,
+    "tmag": 11.159,
+    "verdict": "REJECTED_BY_FALSIFICATION",
+    "weighted_dip_ppm": 887.1
+  },
+  {
+    "best_period_d": 11.7123318,
+    "combined_bls_snr": 8.33,
+    "dist_pc": 40.783,
+    "failed_gates": [
+      "gate4_leave_one_epoch_out",
+      "gate8_centroid_stability",
+      "gate9_per_transit_coherence"
+    ],
+    "gates_passed": 7,
+    "inferred_rp_rearth": 1.24,
+    "loeo_mean_z": -0.28,
+    "loeo_min_z": -0.46,
+    "rad_rsun": 0.44813,
+    "scanned_utc": "2026-10-28T14:13:55Z",
+    "sectors": [
+      43,
+      44,
+      45,
+      71,
+      72
+    ],
+    "t0_btjd": 2478.84154,
+    "teff_k": 3653.0,
+    "tic_id": 101448163,
+    "tmag": 11.1696,
+    "verdict": "REJECTED_BY_FALSIFICATION",
+    "weighted_dip_ppm": 645.0
+  }
+]

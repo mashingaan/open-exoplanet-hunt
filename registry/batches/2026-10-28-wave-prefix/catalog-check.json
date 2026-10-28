@@ -1,0 +1,206 @@
+{
+  "external_sources": [
+    {
+      "bytes": 8944735,
+      "complete": true,
+      "parser": "csv",
+      "parser_version": 1,
+      "resolved_url": "https://zenodo.org/api/records/15466293/files/exominerplusplus_catalog_labeled_tces_s1-s67_tess-spoc-2min_complete_1-14-2025_1039.csv/content",
+      "retrieved_utc": "2026-10-28T15:37:11.657923+00:00",
+      "rows": 57162,
+      "scope": "NASA ExoMiner++ labeled TCEs, all labels conservatively excluded as previously reported signals",
+      "sha256": "8c97e5bff6019cd7bd979e7ad21423448d67299bdf47a98f8510d25db4f197b2",
+      "source": "exominer_labeled_tces",
+      "url": "https://zenodo.org/api/records/15466293/files/exominerplusplus_catalog_labeled_tces_s1-s67_tess-spoc-2min_complete_1-14-2025_1039.csv/content"
+    },
+    {
+      "bytes": 36391080,
+      "complete": true,
+      "parser": "csv",
+      "parser_version": 1,
+      "resolved_url": "https://zenodo.org/api/records/15466293/files/exominerplusplus_catalog_unk_tces_s1-s67_tess-spoc-2min_complete_1-16-2025_1014.csv/content",
+      "retrieved_utc": "2026-10-28T15:37:54.094146+00:00",
+      "rows": 147567,
+      "scope": "NASA ExoMiner++ public unknown-TCE catalog, conservative prior-signal exclusion independent of score",
+      "sha256": "e67f03cca05d46391fa391ce797df21672c78a15a33c20b82932642eef1e8792",
+      "source": "exominer_unknown_tces",
+      "url": "https://zenodo.org/api/records/15466293/files/exominerplusplus_catalog_unk_tces_s1-s67_tess-spoc-2min_complete_1-16-2025_1014.csv/content"
+    },
+    {
+      "bytes": 3848618,
+      "complete": true,
+      "parser": "csv",
+      "parser_version": 1,
+      "resolved_url": "https://zenodo.org/api/records/19661443/files/nsfp09_table.csv/content",
+      "retrieved_utc": "2026-10-28T15:37:18.059074+00:00",
+      "rows": 14815,
+      "scope": "RAVEN author-deposited broad prior-signal table, not a list of confirmed planets",
+      "sha256": "7b4fb0b02a8597cad8ecc4ca1687be1e75ab5b04fb74e7232ad834944641df3a",
+      "source": "external_candidates",
+      "url": "https://zenodo.org/api/records/19661443/files/nsfp09_table.csv/content"
+    },
+    {
+      "bytes": 306484,
+      "complete": true,
+      "parser": "csv",
+      "parser_version": 1,
+      "resolved_url": "https://zenodo.org/api/records/19661443/files/val_rp8_table.csv/content",
+      "retrieved_utc": "2026-10-28T15:37:02.175042+00:00",
+      "rows": 207,
+      "scope": "RAVEN author-deposited large-radius signal table, prior-report exclusion",
+      "sha256": "94f035680944937d5873ecefcfeeb69ddd5982b537edff841cdee3027b73c356",
+      "source": "raven_large_radius_signals",
+      "url": "https://zenodo.org/api/records/19661443/files/val_rp8_table.csv/content"
+    },
+    {
+      "bytes": 218985,
+      "complete": true,
+      "parser": "csv",
+      "parser_version": 1,
+      "resolved_url": "https://zenodo.org/api/records/19661443/files/val_table.csv/content",
+      "retrieved_utc": "2026-10-28T15:37:01.012818+00:00",
+      "rows": 143,
+      "scope": "RAVEN author-deposited validated candidate table, prior-report exclusion",
+      "sha256": "dbef90f19a5714bb0ed93e8e637a04b50fb506f9ddaf29829951032b751358f8",
+      "source": "raven_validated_signals",
+      "url": "https://zenodo.org/api/records/19661443/files/val_table.csv/content"
+    },
+    {
+      "bytes": 3227311,
+      "complete": true,
+      "parser": "csv",
+      "parser_version": 1,
+      "resolved_url": "https://zenodo.org/api/records/19661443/files/vet_table.csv/content",
+      "retrieved_utc": "2026-10-28T15:36:59.876190+00:00",
+      "rows": 2170,
+      "scope": "RAVEN author-deposited vetted signal table, excluded regardless of disposition",
+      "sha256": "59760bd0bd749f74bb2f25e5567ef92b34209821b7a8e436038a84124bdd1df8",
+      "source": "raven_vetted_signals",
+      "url": "https://zenodo.org/api/records/19661443/files/vet_table.csv/content"
+    },
+    {
+      "bytes": 5363508,
+      "complete": true,
+      "parser": "t16_mrt",
+      "parser_version": 1,
+      "resolved_url": "https://content.cld.iop.org/journals/0067-0049/284/1/19/revision1/apjsae5b6ct1_mrt.txt",
+      "retrieved_utc": "2026-10-28T15:37:54.320114+00:00",
+      "rows": 11143,
+      "scope": "Published T16 periodic candidate catalog, Table 1, TICID bytes 21-30",
+      "sha256": "794bb20e680229e9c47dd8dd8f63b2bb402fd9c7752545a8c943da21609184b9",
+      "source": "t16_periodic_candidates",
+      "url": "https://content.cld.iop.org/journals/0067-0049/284/1/19/revision1/apjsae5b6ct1_mrt.txt"
+    },
+    {
+      "bytes": 27813,
+      "complete": true,
+      "parser": "t16_mrt",
+      "parser_version": 1,
+      "resolved_url": "https://content.cld.iop.org/journals/0067-0049/284/1/19/revision1/apjsae5b6ct2_mrt.txt",
+      "retrieved_utc": "2026-10-28T15:37:54.383424+00:00",
+      "rows": 411,
+      "scope": "Published T16 single-transit candidate catalog, Table 2, TICID bytes 21-30",
+      "sha256": "04a47c9979ba7cc057b9d31f860789e10037552a8222d9e8be6edb4947425d88",
+      "source": "t16_single_transit_candidates",
+      "url": "https://content.cld.iop.org/journals/0067-0049/284/1/19/revision1/apjsae5b6ct2_mrt.txt"
+    },
+    {
+      "bytes": 1898138,
+      "complete": true,
+      "parser": "csv",
+      "parser_version": 1,
+      "resolved_url": "https://archive.stsci.edu/hlsps/tess-ebs/hlsp_tess-ebs_tess_lcf-ffi_s0001-s0026_tess_v1.0_cat.csv",
+      "retrieved_utc": "2026-10-28T15:37:12.552681+00:00",
+      "rows": 4584,
+      "scope": "Frozen MAST TESS-EBs v1.0 sectors 1-26. Live Villanova differs, so this release alone is insufficient.",
+      "sha256": "97e81f6c01716a431379ab6bd37d1182b611a485107110e0eba830f817ba7a8f",
+      "source": "tess_eb",
+      "url": "https://archive.stsci.edu/hlsps/tess-ebs/hlsp_tess-ebs_tess_lcf-ffi_s0001-s0026_tess_v1.0_cat.csv"
+    },
+    {
+      "bytes": 2002473,
+      "complete": true,
+      "parser": "kostov2025_mrt",
+      "parser_version": 1,
+      "resolved_url": "https://content.cld.iop.org/journals/0067-0049/279/2/50/revision1/apjsade2d8t3_mrt.txt",
+      "retrieved_utc": "2026-10-28T15:37:12.041983+00:00",
+      "rows": 7936,
+      "scope": "Fixed publisher release of Kostov et al. 2025 table 3, additional conservative exclusion",
+      "sha256": "e197c05c167225bf9d5ca1bb3a5b9e672d76b9b938168b7a44c7382768fd0fb6",
+      "source": "tess_eb_kostov2025",
+      "url": "https://content.cld.iop.org/journals/0067-0049/279/2/50/revision1/apjsade2d8t3_mrt.txt"
+    },
+    {
+      "bytes": 1110207,
+      "complete": true,
+      "parser": "villanova_html",
+      "parser_version": 1,
+      "resolved_url": "https://tessebs.villanova.edu/search_results?order_by=tic__tess_id&then_order_by=none&incat_only=on&display_format=csv&c=tic__tess_id",
+      "retrieved_utc": "2026-10-28T15:36:55.487342+00:00",
+      "rows": 4584,
+      "scope": "Live Villanova confirmed-EB TIC export, unioned with frozen MAST and Kostov releases",
+      "sha256": "158ecf2fae56c8f0808cafd594e00d375e8ec5d373c19d1ed4af28dbe9f43236",
+      "source": "tess_eb_live_villanova",
+      "url": "https://tessebs.villanova.edu/search_results?order_by=tic__tess_id&then_order_by=none&incat_only=on&display_format=csv&c=tic__tess_id"
+    }
+  ],
+  "limitations": [
+    "TIC-based catalog exclusions are not an exhaustive literature or coordinate search",
+    "This refresh does not modify or authorize execution of the original plan"
+  ],
+  "official_sources": [
+    {
+      "bytes": 1818654,
+      "retrieved_utc": "2026-10-28T15:38:01.275158+00:00",
+      "rows": 6451,
+      "sha256": "caefd88af355943484fbd81ab0e0f79924d1c58a536b0d0d50602aa8aba7f005",
+      "source": "confirmed",
+      "unique_tics": 4551,
+      "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+pl_name,hostname,tic_id,disc_year,discoverymethod,disc_facility,pl_orbper,pl_rade,ra,dec,sy_dist+from+pscomppars&format=json"
+    },
+    {
+      "bytes": 2300026,
+      "retrieved_utc": "2026-10-28T15:38:03.297187+00:00",
+      "rows": 8151,
+      "sha256": "0eac437a503b4dea524f47ba0ba1e148786f8f606a9ff5656582e78dcde03222",
+      "source": "toi",
+      "unique_tics": 7826,
+      "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+toi,tid,tfopwg_disp,pl_orbper,pl_tranmid,pl_trandep,pl_trandurh,pl_rade,st_tmag,st_teff,st_rad,st_dist+from+toi&format=json"
+    },
+    {
+      "bytes": 2335190,
+      "retrieved_utc": "2026-10-28T15:38:04.818960+00:00",
+      "rows": 5139,
+      "sha256": "9e11710eaa5604343bef02d6d4b8b6b087f0d335c9213453345a5d2a6243d1f9",
+      "source": "ctoi",
+      "unique_tics": 4936,
+      "url": "https://exofop.ipac.caltech.edu/tess/download_ctoi.php?sort=ctoi&output=csv"
+    }
+  ],
+  "run_id": "40717642629",
+  "targets": [
+    {
+      "collisions": [],
+      "tic_id": 71254978
+    },
+    {
+      "collisions": [],
+      "tic_id": 62468883
+    },
+    {
+      "collisions": [],
+      "tic_id": 101070518
+    },
+    {
+      "collisions": [],
+      "tic_id": 101448163
+    }
+  ],
+  "upstream_registry": {
+    "commit": "19e5e9e8ca72c8e584fd08a92276d285ca474888",
+    "retrieved_utc": "2026-10-28T15:38:05.651409+00:00",
+    "rows": 1250,
+    "sha256": "9d4cabc381f598b8587a5039f1011f60ee4830c05166b92eff2e62b1f72213d4",
+    "url": "https://raw.githubusercontent.com/Th0rgal/open-exoplanet-hunt/19e5e9e8ca72c8e584fd08a92276d285ca474888/registry/scanned_targets.jsonl"
+  }
+}

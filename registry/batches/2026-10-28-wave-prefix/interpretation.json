@@ -1,0 +1,85 @@
+{
+  "reason": "Legacy passing centroid and secondary results do not retain enough evidence to rule out insufficient measurements",
+  "statuses": {
+    "101070518:0.5": {
+      "gate6_secondary_eclipse_null": "FAIL",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "101070518:0.6666666666666666": {
+      "gate6_secondary_eclipse_null": "FAIL",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "101070518:1.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "101070518:2.0": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "FAIL"
+    },
+    "101070518:primary": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "FAIL"
+    },
+    "101448163:0.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "101448163:0.6666666666666666": {
+      "gate6_secondary_eclipse_null": "FAIL",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "101448163:1.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "101448163:2.0": {
+      "gate6_secondary_eclipse_null": "FAIL",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "101448163:primary": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "FAIL"
+    },
+    "62468883:0.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "62468883:0.6666666666666666": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "62468883:1.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "62468883:2.0": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "62468883:primary": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "71254978:0.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "71254978:0.6666666666666666": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "71254978:1.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "71254978:2.0": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "71254978:primary": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    }
+  }
+}

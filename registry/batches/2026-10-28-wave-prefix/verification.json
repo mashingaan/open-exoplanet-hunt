@@ -1,0 +1,12 @@
+{
+  "limitation": "Source run links require private repository access and artifacts expire",
+  "replay_runs": [
+    "https://github.com/mashingaan/tess-discovery/actions/runs/40705036918",
+    "https://github.com/mashingaan/tess-discovery/actions/runs/40705035678",
+    "https://github.com/mashingaan/tess-discovery/actions/runs/40705036075"
+  ],
+  "replay_status": "success for completed prefixes",
+  "scope": "primary and fixed aliases only",
+  "source_run": "https://github.com/mashingaan/tess-discovery/actions/runs/40703248109",
+  "source_status": "failure after partial completion"
+}

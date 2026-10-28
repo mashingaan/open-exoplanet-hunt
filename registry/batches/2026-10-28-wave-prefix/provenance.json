@@ -1,0 +1,64 @@
+{
+  "catalog_subset_scope": "Only entries for the four targets, sufficient for their lookup, not a complete catalog",
+  "dependencies": [
+    "astropy==7.1.1",
+    "astropy-iers-data==0.2026.10.19.0.52.1",
+    "certifi==2026.10.23",
+    "charset-normalizer==3.5.2",
+    "contourpy==1.4.0",
+    "cycler==0.12.1",
+    "fonttools==4.68.0",
+    "idna==3.20",
+    "kiwisolver==1.5.1",
+    "matplotlib==3.10.7",
+    "numpy==2.3.4",
+    "packaging==26.3",
+    "pillow==13.0.0",
+    "pyerfa==2.0.1.5",
+    "pyparsing==3.3.3",
+    "python-dateutil==3.0.0",
+    "PyYAML==6.0.3",
+    "requests==2.32.5",
+    "scipy==1.16.3",
+    "six==1.17.0",
+    "tzdata==2026.6",
+    "urllib3==2.8.0"
+  ],
+  "original_partition_sha256": [
+    "480133c70017be6a513454a6845e5a89c0205b64e355e3d71de624fb348c70ad",
+    "2b9d8bf0a99f93ac00d8411b4281f14479920ccbb8685edacc8778f0dbea049d",
+    "b49ab7e6d4a545ba3e1f66d5e8884a66a0ca0c18af14b65c55d9479c53278935"
+  ],
+  "pipeline_commit": "6b1af086faea1d84cabd499fada2e9499bfce1d4",
+  "policy": {
+    "alias_multipliers": [
+      2.0,
+      0.5,
+      1.5,
+      0.6666666666666666
+    ],
+    "failed_target_policy": "Stop incomplete and resume the same frozen target, never substitute",
+    "maximum_discovered_sectors": 12,
+    "maximum_metadata_probes": 96,
+    "maximum_planned_targets": 8,
+    "minimum_sectors": 3,
+    "period_range_days": [
+      1.1,
+      15.0
+    ],
+    "random_seed": null,
+    "randomness": "No stochastic search step is configured",
+    "sector_policy": "Unchanged upstream six-sector screen and conditional full-sector expansion",
+    "thresholds": "Unchanged upstream scientific scripts, identified by SHA-256"
+  },
+  "scientific_scripts": {
+    "audit_neighbors_and_aliases.py": "b5ce318c5a54631472db0eaac7947e2db9a1c0816396acaf7bb5ac9d2dee0e65",
+    "hunt_sectors.py": "4124cc22807f86b1596a23602d10082ee5aef79787677b87272552ade7bdadb4",
+    "sync_catalogs.py": "3e16e0ebbda8fa855c14cda0b95c061f3bc791cb785397ea3e1d8e00a2756220",
+    "verify_all.py": "25337066832b629780741808e3586873facdccc77d7f09e314bc927c66d4c69d",
+    "vet_candidate.py": "8e7f3e3a903247c73f3b872bd2d9d1b578f00db34f17323c10712b8c6762911d"
+  },
+  "scope": "Four completed targets of an interrupted wave",
+  "selection_rule": "Count-checked clean-star cohort, bounded metadata shortlist, metadata ranking before photometry",
+  "source_catalog_sha256": "12045c3e3e4478502fbec6371df6872f9514d06e024d6695a0972e60704731c2"
+}
