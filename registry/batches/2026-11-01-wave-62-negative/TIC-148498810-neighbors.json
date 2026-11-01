@@ -1,0 +1,86 @@
+{
+  "centroid_3sigma_upper_limit_arcsec": 0.0057,
+  "n_neighbors_120arcsec": 6,
+  "n_ruled_out_by_centroid": 0,
+  "n_ruled_out_by_flux": 5,
+  "n_unresolved_within_psf": 1,
+  "neighbors": [
+    {
+      "aperture_weight": 1.0,
+      "delta_tmag": 8.343,
+      "gaia_id": "3759774208679506432",
+      "max_dip_100pct_ppm": 460.0,
+      "max_dip_50pct_ppm": 230.0,
+      "req_centroid_shift_arcsec": 0.0008,
+      "sep_arcsec": 4.08,
+      "status": "UNRESOLVED_WITHIN_PSF",
+      "tic_id": 902676678,
+      "tmag": 19.362
+    },
+    {
+      "aperture_weight": 0.1874,
+      "delta_tmag": 9.218,
+      "gaia_id": "3759774135665646976",
+      "max_dip_100pct_ppm": 38.5,
+      "max_dip_50pct_ppm": 19.2,
+      "req_centroid_shift_arcsec": 0.0145,
+      "sep_arcsec": 69.93,
+      "status": "RULED_OUT_BY_FLUX",
+      "tic_id": 902676677,
+      "tmag": 20.238
+    },
+    {
+      "aperture_weight": 0.1328,
+      "delta_tmag": 7.236,
+      "gaia_id": "3759774135665645824",
+      "max_dip_100pct_ppm": 169.4,
+      "max_dip_50pct_ppm": 84.7,
+      "req_centroid_shift_arcsec": 0.0153,
+      "sep_arcsec": 73.7,
+      "status": "RULED_OUT_BY_FLUX",
+      "tic_id": 902676676,
+      "tmag": 18.255
+    },
+    {
+      "aperture_weight": 0.0006,
+      "delta_tmag": 8.179,
+      "gaia_id": "3759774277399800960",
+      "max_dip_100pct_ppm": 0.3,
+      "max_dip_50pct_ppm": 0.2,
+      "req_centroid_shift_arcsec": 0.0233,
+      "sep_arcsec": 112.1,
+      "status": "RULED_OUT_BY_FLUX",
+      "tic_id": 902676680,
+      "tmag": 19.199
+    },
+    {
+      "aperture_weight": 0.0005,
+      "delta_tmag": 7.877,
+      "gaia_id": "",
+      "max_dip_100pct_ppm": 0.4,
+      "max_dip_50pct_ppm": 0.2,
+      "req_centroid_shift_arcsec": 0.0236,
+      "sep_arcsec": 113.36,
+      "status": "RULED_OUT_BY_FLUX",
+      "tic_id": 148498806,
+      "tmag": 18.897
+    },
+    {
+      "aperture_weight": 0.0004,
+      "delta_tmag": 7.681,
+      "gaia_id": "3759777056243408128",
+      "max_dip_100pct_ppm": 0.3,
+      "max_dip_50pct_ppm": 0.2,
+      "req_centroid_shift_arcsec": 0.0238,
+      "sep_arcsec": 114.44,
+      "status": "RULED_OUT_BY_FLUX",
+      "tic_id": 902676732,
+      "tmag": 18.701
+    }
+  ],
+  "observed_centroid_shift_arcsec": 0.0025,
+  "observed_centroid_shift_sigma": 2.31,
+  "observed_dip_ppm": 207.8,
+  "target_tmag": 11.0198,
+  "tic_id": 148498810
+}

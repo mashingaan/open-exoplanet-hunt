@@ -1,0 +1,37 @@
+{
+  "baseline_registry_sha256": "f9278ef77fc6b0ac3f68e6c76b51b693ae38461105b1f86bbac2fdd029c232a9",
+  "commit": "3feda9b4dab00e09f0611404cee2e911d8a5f632",
+  "dependencies": [
+    "astropy==7.1.1",
+    "astropy-iers-data==0.2026.10.19.0.52.1",
+    "certifi==2026.10.23",
+    "charset-normalizer==3.5.2",
+    "contourpy==1.4.0",
+    "cycler==0.12.1",
+    "fonttools==4.68.0",
+    "idna==3.20",
+    "kiwisolver==1.5.1",
+    "matplotlib==3.10.7",
+    "numpy==2.3.4",
+    "packaging==26.3",
+    "pillow==13.0.0",
+    "pyerfa==2.0.1.5",
+    "pyparsing==3.3.3",
+    "python-dateutil==4.0.0",
+    "PyYAML==6.0.3",
+    "requests==2.32.5",
+    "scipy==1.16.3",
+    "tzdata==2026.6",
+    "urllib3==2.8.0"
+  ],
+  "mode": "PREFLIGHT_ONLY_NO_PHOTOMETRY",
+  "run_id": "41301845364",
+  "scientific_scripts": {
+    "audit_neighbors_and_aliases.py": "b5ce318c5a54631472db0eaac7947e2db9a1c0816396acaf7bb5ac9d2dee0e65",
+    "hunt_sectors.py": "4124cc22807f86b1596a23602d10082ee5aef79787677b87272552ade7bdadb4",
+    "sync_catalogs.py": "3e16e0ebbda8fa855c14cda0b95c061f3bc791cb785397ea3e1d8e00a2756220",
+    "verify_all.py": "25337066832b629780741808e3586873facdccc77d7f09e314bc927c66d4c69d",
+    "vet_candidate.py": "8e7f3e3a903247c73f3b872bd2d9d1b578f00db34f17323c10712b8c6762911d"
+  },
+  "started_utc": "2026-11-01T11:26:54.250253+00:00"
+}

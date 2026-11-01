@@ -1,0 +1,1245 @@
+{
+  "reason": "Passing null or centroid measurements do not independently eliminate eclipsing-binary or background-blend explanations. Failed measurements remain explicit failures.",
+  "statuses": {
+    "147685623:0.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "147685623:0.6666666666666666": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "147685623:1.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "147685623:2.0": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "147685623:primary": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "147806582:0.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "147806582:0.6666666666666666": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "147806582:1.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "147806582:2.0": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "FAIL"
+    },
+    "147806582:primary": {
+      "gate6_secondary_eclipse_null": "FAIL",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "147977514:0.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "147977514:0.6666666666666666": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "147977514:1.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "147977514:2.0": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "147977514:primary": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "148498810:0.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "148498810:0.6666666666666666": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "148498810:1.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "148498810:2.0": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "148498810:primary": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "149859905:0.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "149859905:0.6666666666666666": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "149859905:1.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "149859905:2.0": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "149859905:primary": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "150434585:0.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "150434585:0.6666666666666666": {
+      "gate6_secondary_eclipse_null": "FAIL",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "150434585:1.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "150434585:2.0": {
+      "gate6_secondary_eclipse_null": "FAIL",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "150434585:primary": {
+      "gate6_secondary_eclipse_null": "FAIL",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "151621464:0.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "151621464:0.6666666666666666": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "151621464:1.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "151621464:2.0": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "151621464:primary": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "152144821:0.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "152144821:0.6666666666666666": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "152144821:1.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "152144821:2.0": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "152144821:primary": {
+      "gate6_secondary_eclipse_null": "FAIL",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "152477837:0.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "152477837:0.6666666666666666": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "152477837:1.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "152477837:2.0": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "152477837:primary": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "152590637:0.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "152590637:0.6666666666666666": {
+      "gate6_secondary_eclipse_null": "FAIL",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "152590637:1.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "152590637:2.0": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "FAIL"
+    },
+    "152590637:primary": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "152865184:0.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "152865184:0.6666666666666666": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "152865184:1.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "152865184:2.0": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "152865184:primary": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "154648852:0.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "154648852:0.6666666666666666": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "154648852:1.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "154648852:2.0": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "154648852:primary": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "155916100:0.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "155916100:0.6666666666666666": {
+      "gate6_secondary_eclipse_null": "FAIL",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "155916100:1.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "155916100:2.0": {
+      "gate6_secondary_eclipse_null": "FAIL",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "155916100:primary": {
+      "gate6_secondary_eclipse_null": "FAIL",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "155917725:0.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "155917725:0.6666666666666666": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "155917725:1.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "155917725:2.0": {
+      "gate6_secondary_eclipse_null": "FAIL",
+      "gate8_centroid_stability": "FAIL"
+    },
+    "155917725:primary": {
+      "gate6_secondary_eclipse_null": "FAIL",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "157126618:0.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "157126618:0.6666666666666666": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "157126618:1.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "157126618:2.0": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "157126618:primary": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "159147829:0.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "159147829:0.6666666666666666": {
+      "gate6_secondary_eclipse_null": "FAIL",
+      "gate8_centroid_stability": "FAIL"
+    },
+    "159147829:1.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "159147829:2.0": {
+      "gate6_secondary_eclipse_null": "FAIL",
+      "gate8_centroid_stability": "FAIL"
+    },
+    "159147829:primary": {
+      "gate6_secondary_eclipse_null": "FAIL",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "159204476:0.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "159204476:0.6666666666666666": {
+      "gate6_secondary_eclipse_null": "FAIL",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "159204476:1.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "159204476:2.0": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "159204476:primary": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "159410994:0.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "159410994:0.6666666666666666": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "159410994:1.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "FAIL"
+    },
+    "159410994:2.0": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "159410994:primary": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "159612743:0.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "159612743:0.6666666666666666": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "159612743:1.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "159612743:2.0": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "FAIL"
+    },
+    "159612743:primary": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "159815809:0.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "159815809:0.6666666666666666": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "159815809:1.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "159815809:2.0": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "159815809:primary": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "159831595:0.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "159831595:0.6666666666666666": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "159831595:1.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "159831595:2.0": {
+      "gate6_secondary_eclipse_null": "FAIL",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "159831595:primary": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "160228580:0.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "160228580:0.6666666666666666": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "160228580:1.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "160228580:2.0": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "160228580:primary": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "161685984:0.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "161685984:0.6666666666666666": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "161685984:1.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "161685984:2.0": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "161685984:primary": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "161722546:0.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "161722546:0.6666666666666666": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "161722546:1.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "161722546:2.0": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "161722546:primary": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "163295977:0.5": {
+      "gate6_secondary_eclipse_null": "FAIL",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "163295977:0.6666666666666666": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "163295977:1.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "163295977:2.0": {
+      "gate6_secondary_eclipse_null": "FAIL",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "163295977:primary": {
+      "gate6_secondary_eclipse_null": "FAIL",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "164525365:0.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "FAIL"
+    },
+    "164525365:0.6666666666666666": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "FAIL"
+    },
+    "164525365:1.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "FAIL"
+    },
+    "164525365:2.0": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "FAIL"
+    },
+    "164525365:primary": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "FAIL"
+    },
+    "165148218:0.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "165148218:0.6666666666666666": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "165148218:1.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "165148218:2.0": {
+      "gate6_secondary_eclipse_null": "FAIL",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "165148218:primary": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "165313178:0.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "165313178:0.6666666666666666": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "165313178:1.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "165313178:2.0": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "165313178:primary": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "165630168:0.5": {
+      "gate6_secondary_eclipse_null": "FAIL",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "165630168:0.6666666666666666": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "165630168:1.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "165630168:2.0": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "165630168:primary": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "166151664:0.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "166151664:0.6666666666666666": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "166151664:1.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "166151664:2.0": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "166151664:primary": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "166177408:0.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "166177408:0.6666666666666666": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "166177408:1.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "166177408:2.0": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "166177408:primary": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "167717498:0.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "167717498:0.6666666666666666": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "167717498:1.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "167717498:2.0": {
+      "gate6_secondary_eclipse_null": "FAIL",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "167717498:primary": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "167748715:0.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "167748715:0.6666666666666666": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "FAIL"
+    },
+    "167748715:1.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "167748715:2.0": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "167748715:primary": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "FAIL"
+    },
+    "168349337:0.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "168349337:0.6666666666666666": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "168349337:1.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "168349337:2.0": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "168349337:primary": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "168706231:0.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "168706231:0.6666666666666666": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "168706231:1.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "168706231:2.0": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "168706231:primary": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "170301597:0.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "170301597:0.6666666666666666": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "170301597:1.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "170301597:2.0": {
+      "gate6_secondary_eclipse_null": "FAIL",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "170301597:primary": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "FAIL"
+    },
+    "170634461:0.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "170634461:0.6666666666666666": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "170634461:1.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "170634461:2.0": {
+      "gate6_secondary_eclipse_null": "FAIL",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "170634461:primary": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "FAIL"
+    },
+    "170666257:0.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "170666257:0.6666666666666666": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "170666257:1.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "170666257:2.0": {
+      "gate6_secondary_eclipse_null": "FAIL",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "170666257:primary": {
+      "gate6_secondary_eclipse_null": "FAIL",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "170784831:0.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "170784831:0.6666666666666666": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "170784831:1.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "170784831:2.0": {
+      "gate6_secondary_eclipse_null": "FAIL",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "170784831:primary": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "FAIL"
+    },
+    "173103564:0.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "173103564:0.6666666666666666": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "FAIL"
+    },
+    "173103564:1.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "173103564:2.0": {
+      "gate6_secondary_eclipse_null": "FAIL",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "173103564:primary": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "173957344:0.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "173957344:0.6666666666666666": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "173957344:1.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "173957344:2.0": {
+      "gate6_secondary_eclipse_null": "FAIL",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "173957344:primary": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "174085837:0.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "174085837:0.6666666666666666": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "174085837:1.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "174085837:2.0": {
+      "gate6_secondary_eclipse_null": "FAIL",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "174085837:primary": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "174302463:0.5": {
+      "gate6_secondary_eclipse_null": "FAIL",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "174302463:0.6666666666666666": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "174302463:1.5": {
+      "gate6_secondary_eclipse_null": "FAIL",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "174302463:2.0": {
+      "gate6_secondary_eclipse_null": "FAIL",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "174302463:primary": {
+      "gate6_secondary_eclipse_null": "FAIL",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "175398839:0.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "175398839:0.6666666666666666": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "175398839:1.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "175398839:2.0": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "175398839:primary": {
+      "gate6_secondary_eclipse_null": "FAIL",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "176061460:0.5": {
+      "gate6_secondary_eclipse_null": "FAIL",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "176061460:0.6666666666666666": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "176061460:1.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "176061460:2.0": {
+      "gate6_secondary_eclipse_null": "FAIL",
+      "gate8_centroid_stability": "FAIL"
+    },
+    "176061460:primary": {
+      "gate6_secondary_eclipse_null": "FAIL",
+      "gate8_centroid_stability": "FAIL"
+    },
+    "178372143:0.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "178372143:0.6666666666666666": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "178372143:1.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "178372143:2.0": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "178372143:primary": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "178626583:0.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "178626583:0.6666666666666666": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "178626583:1.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "178626583:2.0": {
+      "gate6_secondary_eclipse_null": "FAIL",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "178626583:primary": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "178967288:0.5": {
+      "gate6_secondary_eclipse_null": "FAIL",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "178967288:0.6666666666666666": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "178967288:1.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "178967288:2.0": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "178967288:primary": {
+      "gate6_secondary_eclipse_null": "FAIL",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "179295013:0.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "179295013:0.6666666666666666": {
+      "gate6_secondary_eclipse_null": "FAIL",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "179295013:1.5": {
+      "gate6_secondary_eclipse_null": "FAIL",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "179295013:2.0": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "179295013:primary": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "179678364:0.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "179678364:0.6666666666666666": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "179678364:1.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "179678364:2.0": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "FAIL"
+    },
+    "179678364:primary": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "179903501:0.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "179903501:0.6666666666666666": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "179903501:1.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "179903501:2.0": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "179903501:primary": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "180221885:0.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "180221885:0.6666666666666666": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "180221885:1.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "FAIL"
+    },
+    "180221885:2.0": {
+      "gate6_secondary_eclipse_null": "FAIL",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "180221885:primary": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "180999466:0.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "180999466:0.6666666666666666": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "180999466:1.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "180999466:2.0": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "180999466:primary": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "183564514:0.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "183564514:0.6666666666666666": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "183564514:1.5": {
+      "gate6_secondary_eclipse_null": "FAIL",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "183564514:2.0": {
+      "gate6_secondary_eclipse_null": "FAIL",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "183564514:primary": {
+      "gate6_secondary_eclipse_null": "FAIL",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "184111668:0.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "184111668:0.6666666666666666": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "184111668:1.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "184111668:2.0": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "184111668:primary": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "185856339:0.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "FAIL"
+    },
+    "185856339:0.6666666666666666": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "185856339:1.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "185856339:2.0": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "185856339:primary": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "185873214:0.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "185873214:0.6666666666666666": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "FAIL"
+    },
+    "185873214:1.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "185873214:2.0": {
+      "gate6_secondary_eclipse_null": "FAIL",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "185873214:primary": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "187485268:0.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "187485268:0.6666666666666666": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "187485268:1.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "187485268:2.0": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "187485268:primary": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "187786440:0.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "187786440:0.6666666666666666": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "187786440:1.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "187786440:2.0": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "187786440:primary": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "187932574:0.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "187932574:0.6666666666666666": {
+      "gate6_secondary_eclipse_null": "FAIL",
+      "gate8_centroid_stability": "FAIL"
+    },
+    "187932574:1.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "187932574:2.0": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "187932574:primary": {
+      "gate6_secondary_eclipse_null": "FAIL",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "188589485:0.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "188589485:0.6666666666666666": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "188589485:1.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "188589485:2.0": {
+      "gate6_secondary_eclipse_null": "FAIL",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "188589485:primary": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "188768959:0.5": {
+      "gate6_secondary_eclipse_null": "FAIL",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "188768959:0.6666666666666666": {
+      "gate6_secondary_eclipse_null": "FAIL",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "188768959:1.5": {
+      "gate6_secondary_eclipse_null": "UNKNOWN",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "188768959:2.0": {
+      "gate6_secondary_eclipse_null": "FAIL",
+      "gate8_centroid_stability": "UNKNOWN"
+    },
+    "188768959:primary": {
+      "gate6_secondary_eclipse_null": "FAIL",
+      "gate8_centroid_stability": "FAIL"
+    }
+  }
+}

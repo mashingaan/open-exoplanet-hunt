@@ -1,0 +1,47 @@
+{
+  "limitations": [
+    "Neighbor-query receipts are retained but the independent MAST neighbor query is not repeated by replay.py.",
+    "Centroid and secondary-eclipse checks are recorded photometric gates, not a pixel-level blend or eclipse audit.",
+    "No separate momentum-dump timing audit or injection-recovery sensitivity calibration is included.",
+    "Two frozen targets are explicitly unresolved and are not part of the scanned registry rows."
+  ],
+  "private_search": {
+    "all_completed_partition_replays_succeeded": true,
+    "catalog_and_adversarial_hosted_verification_run_id": "41308317884",
+    "exact_replay_runs_by_partition": {
+      "0": "41307477312",
+      "1": "41307130734",
+      "2": "41305552938",
+      "3": "41305556782",
+      "4": "41305944451",
+      "5": "41305947415",
+      "6": "41305950419",
+      "7": "41306148519"
+    },
+    "partition_0_scope": "completed prefix of six targets only",
+    "workflow_runs_by_partition": {
+      "0": "41304692637",
+      "1": "41302472586",
+      "2": "41302472586",
+      "3": "41302472586",
+      "4": "41302472586",
+      "5": "41303616947",
+      "6": "41303616947",
+      "7": "41303616947"
+    }
+  },
+  "public_replay": {
+    "partitions": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "result": "Pending hosted run on the final public PR head",
+    "workflow": ".github/workflows/replay-wave-62.yml"
+  }
+}

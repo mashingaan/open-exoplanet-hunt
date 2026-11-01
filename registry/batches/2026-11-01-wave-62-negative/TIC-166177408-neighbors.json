@@ -1,0 +1,74 @@
+{
+  "centroid_3sigma_upper_limit_arcsec": 0.0124,
+  "n_neighbors_120arcsec": 5,
+  "n_ruled_out_by_centroid": 2,
+  "n_ruled_out_by_flux": 2,
+  "n_unresolved_within_psf": 1,
+  "neighbors": [
+    {
+      "aperture_weight": 1.0,
+      "delta_tmag": 5.802,
+      "gaia_id": "1618216958417885696",
+      "max_dip_100pct_ppm": 4757.0,
+      "max_dip_50pct_ppm": 2378.5,
+      "req_centroid_shift_arcsec": 0.0079,
+      "sep_arcsec": 14.61,
+      "status": "UNRESOLVED_WITHIN_PSF",
+      "tic_id": 1001323244,
+      "tmag": 16.952
+    },
+    {
+      "aperture_weight": 0.366,
+      "delta_tmag": 5.523,
+      "gaia_id": "1618216786619188736",
+      "max_dip_100pct_ppm": 2255.1,
+      "max_dip_50pct_ppm": 1127.6,
+      "req_centroid_shift_arcsec": 0.033,
+      "sep_arcsec": 61.28,
+      "status": "RULED_OUT_BY_CENTROID",
+      "tic_id": 166177406,
+      "tmag": 16.674
+    },
+    {
+      "aperture_weight": 0.3096,
+      "delta_tmag": 0.263,
+      "gaia_id": "1618217065793052928",
+      "max_dip_100pct_ppm": 195474.9,
+      "max_dip_50pct_ppm": 97737.5,
+      "req_centroid_shift_arcsec": 0.0343,
+      "sep_arcsec": 63.66,
+      "status": "RULED_OUT_BY_CENTROID",
+      "tic_id": 166177409,
+      "tmag": 11.414
+    },
+    {
+      "aperture_weight": 0.1112,
+      "delta_tmag": 7.693,
+      "gaia_id": "1618228778167894912",
+      "max_dip_100pct_ppm": 93.1,
+      "max_dip_50pct_ppm": 46.5,
+      "req_centroid_shift_arcsec": 0.0407,
+      "sep_arcsec": 75.51,
+      "status": "RULED_OUT_BY_FLUX",
+      "tic_id": 1001323363,
+      "tmag": 18.843
+    },
+    {
+      "aperture_weight": 0.0003,
+      "delta_tmag": 8.561,
+      "gaia_id": "1618216374302310272",
+      "max_dip_100pct_ppm": 0.1,
+      "max_dip_50pct_ppm": 0.1,
+      "req_centroid_shift_arcsec": 0.0629,
+      "sep_arcsec": 116.68,
+      "status": "RULED_OUT_BY_FLUX",
+      "tic_id": 1001323239,
+      "tmag": 19.712
+    }
+  ],
+  "observed_centroid_shift_arcsec": 0.0062,
+  "observed_centroid_shift_sigma": 2.99,
+  "observed_dip_ppm": 539.0,
+  "target_tmag": 11.1505,
+  "tic_id": 166177408
+}

@@ -1,0 +1,322 @@
+{
+  "batch": "2026-11-01-wave-62-negative",
+  "completed_target_count": 62,
+  "completed_targets_by_partition": {
+    "0": [
+      149859905,
+      159410994,
+      173103564,
+      178372143,
+      179903501,
+      180221885
+    ],
+    "1": [
+      150434585,
+      151621464,
+      152477837,
+      152590637,
+      152865184,
+      159147829,
+      163295977,
+      167748715
+    ],
+    "2": [
+      170301597,
+      174302463,
+      178626583,
+      185856339,
+      187485268,
+      188589485,
+      147806582,
+      147977514
+    ],
+    "3": [
+      148498810,
+      159204476,
+      167717498,
+      168349337,
+      170634461,
+      170784831,
+      173957344,
+      175398839
+    ],
+    "4": [
+      179295013,
+      180999466,
+      184111668,
+      185873214,
+      147685623,
+      152144821,
+      154648852,
+      155916100
+    ],
+    "5": [
+      155917725,
+      157126618,
+      159612743,
+      159815809,
+      159831595,
+      160228580,
+      161685984,
+      161722546
+    ],
+    "6": [
+      164525365,
+      165148218,
+      165313178,
+      165630168,
+      166151664,
+      166177408,
+      168706231,
+      170666257
+    ],
+    "7": [
+      174085837,
+      178967288,
+      179678364,
+      183564514,
+      187786440,
+      187932574,
+      188768959,
+      176061460
+    ]
+  },
+  "created_utc": "2026-11-01T12:57:05.742967+00:00",
+  "dependencies": [
+    "PyYAML==6.0.3",
+    "astropy-iers-data==0.2026.10.19.0.52.1",
+    "astropy==7.1.1",
+    "certifi==2026.10.23",
+    "charset-normalizer==3.5.2",
+    "contourpy==1.4.0",
+    "cycler==0.12.1",
+    "fonttools==4.68.0",
+    "idna==3.20",
+    "kiwisolver==1.5.1",
+    "matplotlib==3.10.7",
+    "numpy==2.3.4",
+    "packaging==26.3",
+    "pillow==13.0.0",
+    "pyerfa==2.0.1.5",
+    "pyparsing==3.3.3",
+    "python-dateutil==4.0.0",
+    "requests==2.32.5",
+    "scipy==1.16.3",
+    "tzdata==2026.6",
+    "urllib3==2.8.0"
+  ],
+  "execution_environment": {
+    "image_version": "20261026.354.1",
+    "platform": "Linux-7.0.0-1017-azure-x86_64-with-glibc2.39",
+    "python": "3.12.15 (main, Oct  1 2026, 02:35:59) [GCC 13.3.0]",
+    "runner_os": "Linux",
+    "threads": {
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1"
+    }
+  },
+  "negative_scope": "Only the 62 exact recorded screens and loaded sectors. This is not a claim that these stars have no planets.",
+  "partition_sha256": {
+    "0": "a69ffd2308c364f7fab6f2e45051b8eb7918c25e79b83288dcfb36c6a0d498ad",
+    "1": "b85aa10f7877241d943267e88aa58573f2fb3a595571930e5fb4a8b0e68b380f",
+    "2": "3d99afb5aef49a68aed20df28da0ca80876352060303f4894655c12327e8ce37",
+    "3": "66521ce87f529eae9df7d834f07ca0974ec9644cc0dab9588d47547e54bf8e26",
+    "4": "805debbd9a018911c29524863771f56403efe11089abd0dbafcbb88db298669c",
+    "5": "bb0d9549eccfd67ac3742f1b80c200c8ff1b2575476dd07f99e2bc82683232e9",
+    "6": "e3d5f8c691bf6f697710f7fab5d954ca484c113618d67d1341649a074c441b46",
+    "7": "44783ae71a58982fb0557e9a2243d17ec376de5decd3ef11b191cbfa790f8695"
+  },
+  "planned_target_count": 64,
+  "private_exact_replay_runs_by_partition": {
+    "0": "41307477312",
+    "1": "41307130734",
+    "2": "41305552938",
+    "3": "41305556782",
+    "4": "41305944451",
+    "5": "41305947415",
+    "6": "41305950419",
+    "7": "41306148519"
+  },
+  "schema_version": 1,
+  "scientific_engine": {
+    "bundle_path": "scientific-source/scripts/",
+    "bundled_script_sha256": {
+      "audit_neighbors_and_aliases.py": "b5ce318c5a54631472db0eaac7947e2db9a1c0816396acaf7bb5ac9d2dee0e65",
+      "hunt_sectors.py": "4124cc22807f86b1596a23602d10082ee5aef79787677b87272552ade7bdadb4",
+      "sync_catalogs.py": "3e16e0ebbda8fa855c14cda0b95c061f3bc791cb785397ea3e1d8e00a2756220",
+      "verify_all.py": "25337066832b629780741808e3586873facdccc77d7f09e314bc927c66d4c69d",
+      "vet_candidate.py": "8e7f3e3a903247c73f3b872bd2d9d1b578f00db34f17323c10712b8c6762911d"
+    },
+    "execution_commit": "3feda9b4dab00e09f0611404cee2e911d8a5f632",
+    "note": "Exact search-time scripts are bundled and SHA-256 checked by replay.py.",
+    "target_catalog_sha256": "c14bfcf1832a180081ce0abd2061eeb1dc780074f0c2cdfd923be805f2407368"
+  },
+  "screen_policy": {
+    "alias_multipliers": [
+      2.0,
+      0.5,
+      1.5,
+      0.6666666666666666
+    ],
+    "failed_target_policy": "Stop incomplete and resume the same frozen target, never substitute",
+    "maximum_discovered_sectors": 12,
+    "maximum_metadata_probes": 96,
+    "maximum_planned_targets": 64,
+    "minimum_sectors": 3,
+    "period_range_days": [
+      1.1,
+      15.0
+    ],
+    "random_seed": null,
+    "randomness": "No stochastic search step is configured",
+    "sector_policy": "Unchanged upstream six-sector screen and conditional full-sector expansion",
+    "thresholds": "Unchanged upstream scientific scripts, identified by SHA-256"
+  },
+  "search_runs_by_partition": {
+    "0": "41304692637",
+    "1": "41302472586",
+    "2": "41302472586",
+    "3": "41302472586",
+    "4": "41302472586",
+    "5": "41303616947",
+    "6": "41303616947",
+    "7": "41303616947"
+  },
+  "search_time_catalog": {
+    "external_index_sha256": "eb0a165a1a142f03d9c08df558f2090da93b9431d27d4b6ae29471a2e7b946f2",
+    "official_catalog_counts": {
+      "exofop_ctois_total": 5139,
+      "external_indexed_candidates": 4,
+      "external_indexed_projects": 7,
+      "nasa_confirmed_exoplanets_total": 6451,
+      "nasa_confirmed_with_tic": 6144,
+      "nasa_tois_total": 8151,
+      "unique_known_tics_indexed": 15027
+    },
+    "official_index_sha256": "9c37fd22f7b5561568048ff376ba13ebaf4da94faca561c238c3870b30367db1",
+    "official_source_receipts": [
+      {
+        "bytes": 1818654,
+        "retrieved_utc": "2026-11-01T11:28:31.471842+00:00",
+        "rows": 6451,
+        "sha256": "caefd88af355943484fbd81ab0e0f79924d1c58a536b0d0d50602aa8aba7f005",
+        "source": "confirmed",
+        "unique_tics": 4551,
+        "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+pl_name,hostname,tic_id,disc_year,discoverymethod,disc_facility,pl_orbper,pl_rade,ra,dec,sy_dist+from+pscomppars&format=json"
+      },
+      {
+        "bytes": 2300026,
+        "retrieved_utc": "2026-11-01T11:28:33.683937+00:00",
+        "rows": 8151,
+        "sha256": "0eac437a503b4dea524f47ba0ba1e148786f8f606a9ff5656582e78dcde03222",
+        "source": "toi",
+        "unique_tics": 7826,
+        "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+toi,tid,tfopwg_disp,pl_orbper,pl_tranmid,pl_trandep,pl_trandurh,pl_rade,st_tmag,st_teff,st_rad,st_dist+from+toi&format=json"
+      },
+      {
+        "bytes": 2335190,
+        "retrieved_utc": "2026-11-01T11:28:35.101407+00:00",
+        "rows": 5139,
+        "sha256": "9e11710eaa5604343bef02d6d4b8b6b087f0d335c9213453345a5d2a6243d1f9",
+        "source": "ctoi",
+        "unique_tics": 4936,
+        "url": "https://exofop.ipac.caltech.edu/tess/download_ctoi.php?sort=ctoi&output=csv"
+      }
+    ],
+    "target_specific_catalog_scope": "Empty mapping because none of the 64 planned TIC IDs appeared in the search-time index.",
+    "target_specific_catalog_sha256": "c14bfcf1832a180081ce0abd2061eeb1dc780074f0c2cdfd923be805f2407368"
+  },
+  "selection": {
+    "metadata_probe_limit": 96,
+    "parent_plan_sha256": "1e93f84c39000c63bd106f056494c33dfac091ac0a2c291b28d994267fe9655f",
+    "plan_created_utc": "2026-11-01T11:29:12.184132+00:00",
+    "plan_run_id": "41301845364",
+    "plan_sha256": "1e93f84c39000c63bd106f056494c33dfac091ac0a2c291b28d994267fe9655f",
+    "preflight_refresh_run_id": "41302168729",
+    "preflight_refresh_status": "NO_INDEXED_COLLISION",
+    "selected_target_ids_in_frozen_order": [
+      149859905,
+      159410994,
+      173103564,
+      178372143,
+      179903501,
+      180221885,
+      188567493,
+      148734869,
+      150434585,
+      151621464,
+      152477837,
+      152590637,
+      152865184,
+      159147829,
+      163295977,
+      167748715,
+      170301597,
+      174302463,
+      178626583,
+      185856339,
+      187485268,
+      188589485,
+      147806582,
+      147977514,
+      148498810,
+      159204476,
+      167717498,
+      168349337,
+      170634461,
+      170784831,
+      173957344,
+      175398839,
+      179295013,
+      180999466,
+      184111668,
+      185873214,
+      147685623,
+      152144821,
+      154648852,
+      155916100,
+      155917725,
+      157126618,
+      159612743,
+      159815809,
+      159831595,
+      160228580,
+      161685984,
+      161722546,
+      164525365,
+      165148218,
+      165313178,
+      165630168,
+      166151664,
+      166177408,
+      168706231,
+      170666257,
+      174085837,
+      178967288,
+      179678364,
+      183564514,
+      187786440,
+      187932574,
+      188768959,
+      176061460
+    ],
+    "selection_rule": "Count-checked clean-star cohort, bounded metadata shortlist, metadata ranking before photometry"
+  },
+  "status": "negative_screen_with_two_incomplete_targets",
+  "unresolved_targets": [
+    {
+      "classification": "deferred_incomplete",
+      "reason": "Sector 51 had fewer than 50 valid cadences under the unchanged validity gate",
+      "searched": false,
+      "source_run_id": "41304692637",
+      "tic_id": 188567493
+    },
+    {
+      "classification": "deferred_unattempted",
+      "reason": "Frozen worker stopped before reaching this target after the prior incomplete target",
+      "searched": false,
+      "source_run_id": "41304692637",
+      "tic_id": 148734869
+    }
+  ]
+}
